@@ -1,0 +1,128 @@
+2026-03-30 21:50:39.870 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 21:50:40.215 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-30 21:50:40.218 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-30 21:50:40.379 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 21:50:40.382 +03:00 [INF] Hosting environment: Development
+2026-03-30 21:50:40.385 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-30 21:50:41.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger - null null
+2026-03-30 21:50:41.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger - 301 null null 329.7231ms
+2026-03-30 21:50:41.845 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-30 21:50:41.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 143.5491ms
+2026-03-30 21:50:42.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - null null
+2026-03-30 21:50:42.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - null null
+2026-03-30 21:50:42.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-30 21:50:42.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-30 21:50:42.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-30 21:50:42.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 84.3268ms
+2026-03-30 21:50:42.203 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-30 21:50:42.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - 200 143943 text/css 199.6732ms
+2026-03-30 21:50:42.254 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-30 21:50:42.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 245.9336ms
+2026-03-30 21:50:42.340 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-30 21:50:42.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 298.4321ms
+2026-03-30 21:50:42.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 473.6815ms
+2026-03-30 21:50:42.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-30 21:50:42.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - null null
+2026-03-30 21:50:42.772 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-30 21:50:42.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - 200 628 image/png 27.8803ms
+2026-03-30 21:50:42.763 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.4967ms
+2026-03-30 22:15:34.723 +03:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [OrderingDb];
+2026-03-30 22:15:34.810 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [OrderingDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-03-30 22:15:34.826 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-30 22:15:34.879 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-03-30 22:15:34.884 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-30 22:15:34.899 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-30 22:15:34.913 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-30 22:15:34.926 +03:00 [INF] No migrations were applied. The database is already up to date.
+2026-03-30 22:22:27.742 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-30 22:22:27.800 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-30 22:22:27.805 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-30 22:22:27.809 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-30 22:22:27.831 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-30 22:22:27.846 +03:00 [INF] Applying migration '20260330192216_InitialCreate'.
+2026-03-30 22:22:27.888 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] int NOT NULL IDENTITY,
+    [ProjectName] nvarchar(max) NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [ProjectTeamId] int NOT NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id])
+);
+2026-03-30 22:22:27.895 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderId] int NOT NULL,
+    [ComponentName] nvarchar(max) NOT NULL,
+    [Quantity] int NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([Id]) ON DELETE CASCADE
+);
+2026-03-30 22:22:27.899 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_OrderId] ON [OrderItems] ([OrderId]);
+2026-03-30 22:22:27.904 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260330192216_InitialCreate', N'8.0.25');
+2026-03-30 22:29:19.209 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 22:29:19.567 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-30 22:29:19.570 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-30 22:29:19.685 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 22:29:19.686 +03:00 [INF] Hosting environment: Development
+2026-03-30 22:29:19.687 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-30 22:29:20.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger - null null
+2026-03-30 22:29:20.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger - 301 null null 225.5418ms
+2026-03-30 22:29:20.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-30 22:29:21.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 105.6736ms
+2026-03-30 22:29:21.135 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - null null
+2026-03-30 22:29:21.135 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - null null
+2026-03-30 22:29:21.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-30 22:29:21.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-30 22:29:21.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-30 22:29:21.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 51.5626ms
+2026-03-30 22:29:21.221 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-30 22:29:21.235 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-30 22:29:21.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - 200 143943 text/css 111.1518ms
+2026-03-30 22:29:21.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 110.6926ms
+2026-03-30 22:29:21.274 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-30 22:29:21.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 143.9473ms
+2026-03-30 22:29:21.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 295.4321ms
+2026-03-30 22:29:21.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-30 22:29:21.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.7698ms
+2026-03-30 22:32:27.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2026-03-30 22:32:28.898 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-30 22:32:28.903 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-30 22:32:28.906 +03:00 [INF] HTTP GET /api/Orders responded 401 in 1206.2265 ms
+2026-03-30 22:32:28.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 401 0 null 1220.6152ms
+2026-03-30 22:32:43.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2026-03-30 22:32:43.713 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-30 22:32:43.736 +03:00 [INF] Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-30 22:32:44.366 +03:00 [INF] Returned 0 orders
+2026-03-30 22:32:44.374 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderingService.Models.Order, OrderingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-30 22:32:44.385 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.GetAll (OrderingService) in 642.1864ms
+2026-03-30 22:32:44.387 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-30 22:32:44.389 +03:00 [INF] HTTP GET /api/Orders responded 200 in 763.8282 ms
+2026-03-30 22:32:44.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 200 null application/json; charset=utf-8 770.5613ms

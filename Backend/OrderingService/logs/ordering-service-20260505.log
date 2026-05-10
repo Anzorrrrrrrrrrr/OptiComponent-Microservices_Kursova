@@ -1,0 +1,28 @@
+2026-05-05 21:08:30.158 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 21:08:30.548 +03:00 [INF] Now listening on: https://localhost:7164
+2026-05-05 21:08:30.551 +03:00 [INF] Now listening on: http://localhost:5199
+2026-05-05 21:08:30.783 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 21:08:30.785 +03:00 [INF] Hosting environment: Development
+2026-05-05 21:08:30.787 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-05-05 21:08:35.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-05-05 21:08:36.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 283.4701ms
+2026-05-05 21:08:36.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 21:08:36.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 17.3719ms
+2026-05-05 21:08:36.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-05-05 21:08:36.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.9843ms
+2026-05-05 21:08:36.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-05-05 21:08:36.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.3244ms
+2026-05-05 21:34:07.338 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-05 21:34:07.817 +03:00 [INF] Now listening on: https://localhost:7164
+2026-05-05 21:34:07.821 +03:00 [INF] Now listening on: http://localhost:5199
+2026-05-05 21:34:07.994 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 21:34:07.996 +03:00 [INF] Hosting environment: Development
+2026-05-05 21:34:07.998 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-05-05 21:34:08.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-05-05 21:34:09.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 346.4877ms
+2026-05-05 21:34:09.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-05-05 21:34:09.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 21:34:09.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 158.4341ms
+2026-05-05 21:34:09.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 212.8446ms
+2026-05-05 21:34:09.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-05-05 21:34:09.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.6148ms

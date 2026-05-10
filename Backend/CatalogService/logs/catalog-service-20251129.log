@@ -1,0 +1,25 @@
+2025-11-29 21:53:15.470 +02:00 [INF] Now listening on: https://localhost:7284
+2025-11-29 21:53:15.499 +02:00 [INF] Now listening on: http://localhost:5155
+2025-11-29 21:53:15.597 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-29 21:53:15.599 +02:00 [INF] Hosting environment: Development
+2025-11-29 21:53:15.600 +02:00 [INF] Content root path: C:\Users\user\Desktop\CatalogService
+2025-11-29 21:53:16.170 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2025-11-29 21:53:16.367 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 206.5468ms
+2025-11-29 21:53:16.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2025-11-29 21:53:16.480 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-29 21:53:16.497 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.3546ms
+2025-11-29 21:53:16.519 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.3796ms
+2025-11-29 21:53:16.589 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2025-11-29 21:53:16.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.8024ms
+2025-11-29 21:55:52.896 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7284/components.ComponentsGrpc/GetComponentByName - application/grpc null
+2025-11-29 21:55:52.902 +02:00 [INF] Executing endpoint 'gRPC - /components.ComponentsGrpc/GetComponentByName'
+2025-11-29 21:55:53.329 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Component'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-29 21:55:53.854 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[@__request_Name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+WHERE [c].[Name] = @__request_Name_0
+2025-11-29 21:55:53.933 +02:00 [INF] Executed endpoint 'gRPC - /components.ComponentsGrpc/GetComponentByName'
+2025-11-29 21:55:53.937 +02:00 [INF] HTTP POST /components.ComponentsGrpc/GetComponentByName responded 200 in 1035.5228 ms
+2025-11-29 21:55:53.943 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7284/components.ComponentsGrpc/GetComponentByName - 200 null application/grpc 1047.7504ms

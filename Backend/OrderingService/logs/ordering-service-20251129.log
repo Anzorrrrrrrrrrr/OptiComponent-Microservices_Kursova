@@ -1,0 +1,33 @@
+2025-11-29 21:53:15.533 +02:00 [INF] Now listening on: https://localhost:7164
+2025-11-29 21:53:15.578 +02:00 [INF] Now listening on: http://localhost:5199
+2025-11-29 21:53:15.665 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-29 21:53:15.666 +02:00 [INF] Hosting environment: Development
+2025-11-29 21:53:15.666 +02:00 [INF] Content root path: C:\Users\user\Desktop\OrderingService
+2025-11-29 21:53:16.169 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2025-11-29 21:53:16.355 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 187.9819ms
+2025-11-29 21:53:16.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-29 21:53:16.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2025-11-29 21:53:16.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 8.6047ms
+2025-11-29 21:53:16.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5998ms
+2025-11-29 21:53:16.568 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2025-11-29 21:53:16.653 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.7204ms
+2025-11-29 21:55:17.578 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2025-11-29 21:55:17.589 +02:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2025-11-29 21:55:17.606 +02:00 [INF] Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderingService.Controllers.OrdersController (OrderingService).
+2025-11-29 21:55:17.867 +02:00 [INF] Returned 3 orders
+2025-11-29 21:55:17.873 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderingService.Models.Order, OrderingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-29 21:55:17.883 +02:00 [INF] Executed action OrderingService.Controllers.OrdersController.GetAll (OrderingService) in 273.2511ms
+2025-11-29 21:55:17.884 +02:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2025-11-29 21:55:17.886 +02:00 [INF] HTTP GET /api/Orders responded 200 in 298.5457 ms
+2025-11-29 21:55:17.888 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 200 null application/json; charset=utf-8 311.1058ms
+2025-11-29 21:55:52.758 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Orders - application/json 248
+2025-11-29 21:55:52.766 +02:00 [INF] CORS policy execution successful.
+2025-11-29 21:55:52.767 +02:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2025-11-29 21:55:52.773 +02:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(OrderingService.Models.Order) on controller OrderingService.Controllers.OrdersController (OrderingService).
+2025-11-29 21:55:52.805 +02:00 [INF] Creating order for project TESK OJK
+2025-11-29 21:55:53.990 +02:00 [INF] Order 5 created successfully {"Id":0,"ProjectName":"TESK OJK","CreatedAt":"2025-11-29T19:55:53.9550651Z","Status":"Pending","ProjectTeamId":1,"Items":[{"Id":0,"OrderId":0,"ComponentName":"ESP-32","Quantity":5,"$type":"OrderItem"}],"$type":"Order"}
+2025-11-29 21:55:53.999 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderingService.Models.Order'.
+2025-11-29 21:55:54.012 +02:00 [INF] Executed action OrderingService.Controllers.OrdersController.Create (OrderingService) in 1238.5298ms
+2025-11-29 21:55:54.014 +02:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2025-11-29 21:55:54.015 +02:00 [INF] HTTP POST /api/Orders responded 201 in 1251.5243 ms
+2025-11-29 21:55:54.016 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Orders - 201 null application/json; charset=utf-8 1257.6705ms

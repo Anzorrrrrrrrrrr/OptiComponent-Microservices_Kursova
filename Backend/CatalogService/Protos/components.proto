@@ -1,0 +1,22 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "CatalogService.Grpc";
+
+package components;
+
+service ComponentsGrpc {
+  rpc GetComponentByName (GetComponentByNameRequest) returns (GetComponentByNameResponse);
+}
+
+message GetComponentByNameRequest {
+  string name = 1;
+}
+
+message GetComponentByNameResponse {
+  bool exists = 1;
+  int32 id = 2;
+  string name = 3;
+  double price = 4;
+  string categoryName = 5;
+  string supplierName = 6;
+}

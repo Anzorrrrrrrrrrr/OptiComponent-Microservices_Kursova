@@ -1,0 +1,226 @@
+2026-03-31 20:36:32.309 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 20:36:32.729 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 20:36:32.731 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 20:36:32.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 20:36:32.902 +03:00 [INF] Hosting environment: Development
+2026-03-31 20:36:32.908 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 20:36:34.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 20:36:34.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 270.2972ms
+2026-03-31 20:36:34.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 20:36:34.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 12.7071ms
+2026-03-31 20:36:34.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 20:36:34.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1279ms
+2026-03-31 20:36:34.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 20:36:34.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6356ms
+2026-03-31 20:39:29.720 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Orders - application/json 246
+2026-03-31 20:39:29.733 +03:00 [INF] CORS policy execution successful.
+2026-03-31 20:39:29.815 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-31 20:39:29.818 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 20:39:29.820 +03:00 [INF] HTTP POST /api/Orders responded 401 in 89.3917 ms
+2026-03-31 20:39:29.822 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Orders - 401 0 null 102.0056ms
+2026-03-31 20:40:56.404 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Orders - application/json 246
+2026-03-31 20:40:56.414 +03:00 [INF] CORS policy execution successful.
+2026-03-31 20:40:56.475 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 20:40:56.499 +03:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(OrderingService.Models.Order) on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 20:40:56.541 +03:00 [INF] Creating order for project ESP-32
+2026-03-31 20:40:58.941 +03:00 [INF] Published OrderCreated event for order 1
+2026-03-31 20:40:58.971 +03:00 [INF] Order 1 created successfully {"Id":1,"ProjectName":"ESP-32","CreatedAt":"2026-03-31T17:40:58.3862120Z","Status":"Done","ProjectTeamId":1,"Items":[{"Id":1,"OrderId":1,"ComponentName":"resistor","Quantity":50,"$type":"OrderItem"}],"$type":"Order"}
+2026-03-31 20:40:58.989 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderingService.Models.Order'.
+2026-03-31 20:40:59.010 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.Create (OrderingService) in 2506.3587ms
+2026-03-31 20:40:59.013 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 20:40:59.014 +03:00 [INF] HTTP POST /api/Orders responded 201 in 2600.1050 ms
+2026-03-31 20:40:59.016 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Orders - 201 null application/json; charset=utf-8 2612.687ms
+2026-03-31 20:41:19.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2026-03-31 20:41:19.269 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 20:41:19.274 +03:00 [INF] Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 20:41:19.302 +03:00 [INF] Returned 1 orders
+2026-03-31 20:41:19.304 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderingService.Models.Order, OrderingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 20:41:19.306 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.GetAll (OrderingService) in 30.4968ms
+2026-03-31 20:41:19.308 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 20:41:19.309 +03:00 [INF] HTTP GET /api/Orders responded 200 in 41.4764 ms
+2026-03-31 20:41:19.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 200 null application/json; charset=utf-8 45.424ms
+2026-03-31 20:55:21.909 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Orders - application/json 244
+2026-03-31 20:55:21.923 +03:00 [INF] CORS policy execution successful.
+2026-03-31 20:55:21.924 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 20:55:21.926 +03:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(OrderingService.Models.Order) on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 20:55:21.931 +03:00 [INF] Creating order for project ESP--32
+2026-03-31 20:55:22.070 +03:00 [WRN] Component 'diod' does not exist. Order is invalid.
+2026-03-31 20:55:22.162 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.Create (OrderingService) in 234.6295ms
+2026-03-31 20:55:22.164 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 20:55:22.234 +03:00 [ERR] Unhandled exception
+System.InvalidOperationException: Component 'diod' does not exist in CatalogService.
+   at OrderingService.BLL.OrderService.CreateAsync(Order order) in C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService\BLL\OrderService.cs:line 63
+   at OrderingService.Controllers.OrdersController.Create(Order order) in C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService\Controllers\OrdersController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService\Middleware\GlobalExceptionMiddleware.cs:line 21
+2026-03-31 20:55:22.269 +03:00 [ERR] HTTP POST /api/Orders responded 500 in 345.9334 ms
+2026-03-31 20:55:22.271 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Orders - 500 null application/problem+json 361.7105ms
+2026-03-31 21:01:01.351 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Orders - application/json 244
+2026-03-31 21:01:01.358 +03:00 [INF] CORS policy execution successful.
+2026-03-31 21:01:01.360 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 21:01:01.361 +03:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(OrderingService.Models.Order) on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 21:01:01.365 +03:00 [INF] Creating order for project ESP--32
+2026-03-31 21:01:01.432 +03:00 [INF] Published OrderCreated event for order 2
+2026-03-31 21:01:01.436 +03:00 [INF] Order 2 created successfully {"Id":2,"ProjectName":"ESP--32","CreatedAt":"2026-03-31T18:01:01.4086623Z","Status":"Done1","ProjectTeamId":2,"Items":[{"Id":2,"OrderId":2,"ComponentName":"diod","Quantity":40,"$type":"OrderItem"}],"$type":"Order"}
+2026-03-31 21:01:01.444 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'OrderingService.Models.Order'.
+2026-03-31 21:01:01.447 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.Create (OrderingService) in 82.6119ms
+2026-03-31 21:01:01.450 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.Create (OrderingService)'
+2026-03-31 21:01:01.451 +03:00 [INF] HTTP POST /api/Orders responded 201 in 92.5328 ms
+2026-03-31 21:01:01.455 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Orders - 201 null application/json; charset=utf-8 103.7467ms
+2026-03-31 21:30:40.222 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:30:40.482 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:30:40.485 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:30:40.589 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:30:40.590 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:30:40.591 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:30:41.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:30:41.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 333.8081ms
+2026-03-31 21:30:41.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:30:41.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:30:41.798 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 36.22ms
+2026-03-31 21:30:41.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.9556ms
+2026-03-31 21:30:41.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:30:41.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.7652ms
+2026-03-31 21:40:16.736 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:40:17.057 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:40:17.061 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:40:17.247 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:40:17.251 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:40:17.253 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:40:17.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:40:18.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 358.4722ms
+2026-03-31 21:40:18.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:40:18.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:40:18.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 21.9383ms
+2026-03-31 21:40:18.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.9017ms
+2026-03-31 21:40:18.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:40:18.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.7975ms
+2026-03-31 21:42:42.664 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:42:42.938 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:42:42.941 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:42:43.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:42:43.103 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:42:43.108 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:42:43.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:42:43.998 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 294.6935ms
+2026-03-31 21:42:44.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:42:44.085 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:42:44.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 58.4701ms
+2026-03-31 21:42:44.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.8863ms
+2026-03-31 21:42:44.328 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:42:44.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.7678ms
+2026-03-31 21:42:51.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:42:51.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 11.9823ms
+2026-03-31 21:42:51.650 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:42:51.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:42:51.658 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 7.3672ms
+2026-03-31 21:42:51.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8413ms
+2026-03-31 21:42:51.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:42:51.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.7651ms
+2026-03-31 21:42:51.712 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - null null
+2026-03-31 21:42:51.728 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-31 21:42:51.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - 200 628 image/png 18.1289ms
+2026-03-31 21:42:52.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:42:52.677 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 6.2907ms
+2026-03-31 21:42:52.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:42:52.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:42:52.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 8.002ms
+2026-03-31 21:42:52.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.3212ms
+2026-03-31 21:42:52.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:42:52.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.2968ms
+2026-03-31 21:47:38.884 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:47:39.202 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:47:39.205 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:47:39.379 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:47:39.383 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:47:39.385 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:47:39.952 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:47:40.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 349.8673ms
+2026-03-31 21:47:40.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:47:40.486 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:47:40.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 31.3585ms
+2026-03-31 21:47:40.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.1022ms
+2026-03-31 21:47:40.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:47:40.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5199ms
+2026-03-31 21:48:23.078 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:48:23.400 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:48:23.405 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:48:23.511 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:48:23.513 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:48:23.514 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:48:24.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:48:25.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 265.0659ms
+2026-03-31 21:48:25.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:48:25.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 17.9089ms
+2026-03-31 21:48:25.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:48:25.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.4993ms
+2026-03-31 21:48:25.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:48:25.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.7495ms
+2026-03-31 21:50:20.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2026-03-31 21:50:20.757 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 21:50:20.776 +03:00 [INF] Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 21:50:21.013 +03:00 [INF] Returned 2 orders
+2026-03-31 21:50:21.022 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderingService.Models.Order, OrderingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 21:50:21.035 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.GetAll (OrderingService) in 252.2489ms
+2026-03-31 21:50:21.038 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 21:50:21.041 +03:00 [INF] HTTP GET /api/Orders responded 200 in 382.7294 ms
+2026-03-31 21:50:21.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 200 null application/json; charset=utf-8 393.6623ms
+2026-03-31 21:50:42.275 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7164/api/Orders/2/status - application/json 22
+2026-03-31 21:50:42.283 +03:00 [INF] CORS policy execution successful.
+2026-03-31 21:50:42.291 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.UpdateStatus (OrderingService)'
+2026-03-31 21:50:42.300 +03:00 [INF] Route matched with {action = "UpdateStatus", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateStatus(Int32, UpdateOrderStatusDto) on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 21:50:42.380 +03:00 [INF] Order 2 status updated to done
+2026-03-31 21:50:42.382 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-31 21:50:42.386 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.UpdateStatus (OrderingService) in 84.7444ms
+2026-03-31 21:50:42.388 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.UpdateStatus (OrderingService)'
+2026-03-31 21:50:42.389 +03:00 [INF] HTTP PUT /api/Orders/2/status responded 200 in 109.0802 ms
+2026-03-31 21:50:42.391 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7164/api/Orders/2/status - 200 null application/json; charset=utf-8 115.2977ms
+2026-03-31 21:50:48.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/api/Orders - null null
+2026-03-31 21:50:48.668 +03:00 [INF] Executing endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 21:50:48.669 +03:00 [INF] Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderingService.Controllers.OrdersController (OrderingService).
+2026-03-31 21:50:48.677 +03:00 [INF] Returned 2 orders
+2026-03-31 21:50:48.678 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderingService.Models.Order, OrderingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 21:50:48.679 +03:00 [INF] Executed action OrderingService.Controllers.OrdersController.GetAll (OrderingService) in 7.1372ms
+2026-03-31 21:50:48.680 +03:00 [INF] Executed endpoint 'OrderingService.Controllers.OrdersController.GetAll (OrderingService)'
+2026-03-31 21:50:48.681 +03:00 [INF] HTTP GET /api/Orders responded 200 in 15.9171 ms
+2026-03-31 21:50:48.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/api/Orders - 200 null application/json; charset=utf-8 20.665ms
+2026-03-31 21:57:21.634 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 21:57:21.926 +03:00 [INF] Now listening on: https://localhost:7164
+2026-03-31 21:57:21.928 +03:00 [INF] Now listening on: http://localhost:5199
+2026-03-31 21:57:22.187 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 21:57:22.204 +03:00 [INF] Hosting environment: Development
+2026-03-31 21:57:22.206 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\OrderingService
+2026-03-31 21:57:22.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger - null null
+2026-03-31 21:57:23.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger - 301 null null 230.8009ms
+2026-03-31 21:57:23.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/index.html - null null
+2026-03-31 21:57:23.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/index.html - 200 null text/html;charset=utf-8 115.4753ms
+2026-03-31 21:57:23.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - null null
+2026-03-31 21:57:23.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - null null
+2026-03-31 21:57:23.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-31 21:57:23.349 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-31 21:57:23.353 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/_vs/browserLink - null null
+2026-03-31 21:57:23.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 77.2604ms
+2026-03-31 21:57:23.455 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-31 21:57:23.455 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-31 21:57:23.501 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-31 21:57:23.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui.css - 200 143943 text/css 170.9264ms
+2026-03-31 21:57:23.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 170.6227ms
+2026-03-31 21:57:23.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 173.7331ms
+2026-03-31 21:57:23.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/_vs/browserLink - 200 null text/javascript; charset=UTF-8 269.337ms
+2026-03-31 21:57:23.775 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - null null
+2026-03-31 21:57:23.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.6476ms
+2026-03-31 21:57:23.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - null null
+2026-03-31 21:57:23.917 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-31 21:57:23.920 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7164/swagger/favicon-32x32.png - 200 628 image/png 7.6662ms
