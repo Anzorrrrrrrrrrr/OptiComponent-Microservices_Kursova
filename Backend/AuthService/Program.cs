@@ -50,7 +50,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Адреса вашого React
+        policy.WithOrigins("http://localhost:3000") // Адреса React
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -59,7 +59,7 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 
-// 2. ПІСЛЯ UseRouting, але ДО UseAuthorization додайте:
+
 app.UseCors("AllowReactApp");
 
 if (app.Environment.IsDevelopment())

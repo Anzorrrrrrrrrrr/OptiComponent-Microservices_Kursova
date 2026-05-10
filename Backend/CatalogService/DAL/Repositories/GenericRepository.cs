@@ -21,7 +21,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         IQueryable<T> query = _dbSet;
 
-        // Застосовуємо всі Include, які нам передадуть
+        
         foreach (var include in includes)
         {
             query = query.Include(include);

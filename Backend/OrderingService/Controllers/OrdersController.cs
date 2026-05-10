@@ -45,14 +45,13 @@ public class OrdersController : ControllerBase
     [HttpPut("{id}/status")]
     public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateOrderStatusDto dto)
     {
-        // Перевіряємо, чи не передали порожній статус
+        
         if (dto == null || string.IsNullOrWhiteSpace(dto.Status))
         {
             return BadRequest(new { message = "Статус не може бути порожнім" });
         }
 
-        // ТУТ ВАЖЛИВО: перевірте, як називається ваша змінна сервісу у цьому файлі!
-        // Зазвичай це _service або _orderService
+        
         var isUpdated = await _service.UpdateStatusAsync(id, dto.Status);
 
         if (!isUpdated)

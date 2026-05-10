@@ -32,7 +32,7 @@ public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TReques
 
             if (failures.Count != 0)
             {
-                // Кидаємо ValidationException, її підхопить наш middleware
+                
                 throw new ValidationException(failures);
             }
         }

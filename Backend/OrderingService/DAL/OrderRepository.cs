@@ -50,7 +50,7 @@ public class OrderRepository : IOrderRepository
 
     public async Task UpdateAsync(Order order)
     {
-        // Пишемо прямий SQL-запит для оновлення статусу та інших полів
+        
         const string sql = @"
             UPDATE Orders 
             SET ProjectName = @ProjectName,

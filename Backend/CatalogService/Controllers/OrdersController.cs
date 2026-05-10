@@ -14,7 +14,7 @@ public class OrdersController : ControllerBase
     private readonly IOrderService _orderService;
     private readonly AppDbContext _context;
 
-    // Зверніть увагу: додали AppDbContext у конструктор, щоб швидко діставати замовлення
+   
     public OrdersController(IOrderService orderService, AppDbContext context)
     {
         _orderService = orderService;
@@ -35,7 +35,7 @@ public class OrdersController : ControllerBase
         }
     }
 
-    // НОВИЙ МЕТОД ДЛЯ REACT: Отримати всі замовлення
+    
     [HttpGet]
     public async Task<IActionResult> GetAllOrders()
     {

@@ -3,9 +3,9 @@ using OrderingService.BLL;
 using OrderingService.External;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
-using System.Text;                                // 🔹 NEW
-using Microsoft.AspNetCore.Authentication.JwtBearer;  // 🔹 NEW
-using Microsoft.IdentityModel.Tokens;                 // 🔹 NEW
+using System.Text;                                
+using Microsoft.AspNetCore.Authentication.JwtBearer;  
+using Microsoft.IdentityModel.Tokens;                 
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

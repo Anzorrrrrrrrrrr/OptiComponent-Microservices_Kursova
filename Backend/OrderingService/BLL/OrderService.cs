@@ -1,7 +1,7 @@
 ﻿using OrderingService.DAL;
 using OrderingService.External;
 using OrderingService.Models;
-using OrderingService.Metrics;          // ← додали, щоб викликати метрику
+using OrderingService.Metrics;          
 using Microsoft.Extensions.Logging;
 
 namespace OrderingService.BLL;
@@ -11,18 +11,18 @@ public class OrderService
     private readonly IOrderRepository _repo;
     private readonly GrpcCatalogClient _catalogClient;
     private readonly ILogger<OrderService> _logger;
-    private readonly IEventPublisher _eventPublisher;   // ← НОВЕ поле
+    private readonly IEventPublisher _eventPublisher;   
 
     public OrderService(
         IOrderRepository repo,
         GrpcCatalogClient catalogClient,
         ILogger<OrderService> logger,
-        IEventPublisher eventPublisher)                 // ← ДОДАЛИ в конструктор
+        IEventPublisher eventPublisher)                 
     {
         _repo = repo;
         _catalogClient = catalogClient;
         _logger = logger;
-        _eventPublisher = eventPublisher;               // ← зберігаємо
+        _eventPublisher = eventPublisher;              
     }
 
 
@@ -91,7 +91,7 @@ public class OrderService
 
         order.CreatedAt = DateTime.UtcNow;
         var id = await _repo.CreateAsync(order);
-        order.Id = id;                     // ← важливо: присвоїти Id замовленню
+        order.Id = id;                     
 
         // 🔹 1) метрика
         AppMetrics.OrderCreated();

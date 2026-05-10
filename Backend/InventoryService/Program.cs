@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using System.Reflection;
-using System.Text;                                // 🔹 NEW
+using System.Text;                                
 using InventoryService.Infrastructure.Persistence;
 using InventoryService.Application.Interfaces;
 using InventoryService.Infrastructure.Repositories;
@@ -9,8 +9,8 @@ using InventoryService.Application.Validators;
 using InventoryService.Health;
 using InventoryService.Messaging;
 using Serilog;
-using Microsoft.AspNetCore.Authentication.JwtBearer;  // 🔹 NEW
-using Microsoft.IdentityModel.Tokens;                 // 🔹 NEW
+using Microsoft.AspNetCore.Authentication.JwtBearer;  
+using Microsoft.IdentityModel.Tokens;                 
 using Microsoft.OpenApi.Models;
 using InventoryService.Application.Behaviors;
 
@@ -61,7 +61,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// цей об’єкт можна взагалі видалити, бо не використовується
+
 var securityScheme = new OpenApiSecurityScheme
 {
     Name = "Authorization",
@@ -83,7 +83,7 @@ builder.Services.AddHostedService<RabbitMqOrderCreatedConsumer>();
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-// 🔹 Ось ГОЛОВНИЙ рядок – підключаємо ValidationBehavior як pipeline
+
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 // HealthCheck для Mongo
@@ -128,7 +128,7 @@ app.UseGlobalExceptionMiddleware();
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   // 🔹 NEW
+app.UseAuthentication();   
 app.UseAuthorization();
 
 app.MapControllers();

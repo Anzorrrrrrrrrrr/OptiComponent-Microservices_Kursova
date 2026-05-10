@@ -118,7 +118,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddHealthChecks();
 // =========================================
 
-// 1. ДОДАЙТЕ ЦЕ ДО builder.Build()
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactPolicy", policy =>
@@ -134,7 +134,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactPolicy", policyBuilder =>
     {
-        policyBuilder.WithOrigins("http://localhost:3000") // URL вашого React (БЕЗ скісної риски в кінці!)
+        policyBuilder.WithOrigins("http://localhost:3000") 
                      .AllowAnyMethod()
                      .AllowAnyHeader()
                      .AllowCredentials();
@@ -146,7 +146,7 @@ var app = builder.Build();
 
 
 app.UseRouting();
-// 2. ДОДАЙТЕ ЦЕ ОДРАЗУ ПІСЛЯ app.Build(), але ПЕРЕД app.UseAuthorization()
+
 app.UseCors("ReactPolicy");
 
 if (app.Environment.IsDevelopment())
@@ -162,7 +162,7 @@ app.UseGlobalExceptionMiddleware();
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   // 🔹 ДОДАНО
+app.UseAuthentication();   
 app.UseAuthorization();
 
 app.MapControllers();

@@ -18,12 +18,12 @@ public class AddStockItemHandler : IRequestHandler<AddStockItemCommand, Unit>
 
     public async Task<Unit> Handle(AddStockItemCommand request, CancellationToken cancellationToken)
     {
-        // використовуємо вже готовий об'єкт, який приходить у команді
+        
         var item = request.Item;
 
         await _repo.AddAsync(item);
 
-        // 🔹 структурований лог (для пункту 8)
+        
         _logger.LogInformation("New stock item created {@StockItem}", item);
 
         return Unit.Value;

@@ -20,7 +20,7 @@ public class OrderService : IOrderService
 
     public async Task<Order> CreateOrderAsync(OrderCreateDto dto)
     {
-        // 1. Створюємо "шапку" замовлення
+        
         var order = new Order
         {
             // Генеруємо унікальний номер (напр. ORD-2026-A1B2)

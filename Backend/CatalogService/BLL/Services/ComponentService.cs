@@ -32,7 +32,7 @@ public class ComponentService
     //}
     public async Task<IEnumerable<ComponentDto>> GetAllAsync()
     {
-        // МАГІЯ ТУТ: Кажемо репозиторію підтягнути Категорію і Постачальника
+        //репозиторій підтягує Категорію і Постачальника
         var components = await _uow.Components.GetAllAsync(
             c => c.Category,
             c => c.Supplier
@@ -40,7 +40,7 @@ public class ComponentService
 
         _logger.LogInformation("Returned {Count} components from CatalogDb", components.Count());
 
-        // AutoMapper сам побачить ці дані і перекладе їх у ComponentDto!
+        
         return _mapper.Map<IEnumerable<ComponentDto>>(components);
     }
     public async Task<ComponentDto?> GetByIdAsync(int id)
@@ -88,7 +88,7 @@ public class ComponentService
     //kkkk
     public async Task<bool> UpdateAsync(int id, ComponentDto dto)
     {
-        // 1. Шукаємо компонент
+        // Шукаємо компонент
         var entity = await _uow.Components.GetByIdAsync(id);
         if (entity == null)
         {
@@ -96,13 +96,13 @@ public class ComponentService
             return false; // Повертаємо false, якщо компонента немає в базі
         }
 
-        // 2. Оновлюємо властивості
-        // (Можна використати _mapper.Map(dto, entity), якщо у вас налаштований мапінг для оновлення)
+        // Оновлюємо властивості
+       
         entity.Name = dto.Name;
         entity.Price = dto.Price;
         entity.Quantity = dto.Quantity;
 
-        // 3. Зберігаємо зміни
+        //Зберігаємо зміни
         _uow.Components.Update(entity);
         await _uow.SaveChangesAsync();
 
@@ -120,7 +120,7 @@ public class ComponentService
     int pageNumber = 1,
     int pageSize = 10)
     {
-        // Беремо вже готовий список DTO (не ліземо в DAL)
+        
         var items = (await GetAllAsync()).AsQueryable();
 
         if (!string.IsNullOrWhiteSpace(name))
