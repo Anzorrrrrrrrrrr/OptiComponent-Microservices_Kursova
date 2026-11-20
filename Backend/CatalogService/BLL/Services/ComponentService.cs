@@ -24,15 +24,9 @@ public class ComponentService
         _logger = logger;
     }
 
-    //public async Task<IEnumerable<ComponentDto>> GetAllAsync()
-    //{
-    //    var components = await _uow.Components.GetAllAsync();
-    //    _logger.LogInformation("Returned {Count} components from CatalogDb", components.Count());
-    //    return _mapper.Map<IEnumerable<ComponentDto>>(components);
-    //}
     public async Task<IEnumerable<ComponentDto>> GetAllAsync()
     {
-        //репозиторій підтягує Категорію і Постачальника
+        // Репозиторій підтягує Категорію і Постачальника
         var components = await _uow.Components.GetAllAsync(
             c => c.Category,
             c => c.Supplier
@@ -40,12 +34,18 @@ public class ComponentService
 
         _logger.LogInformation("Returned {Count} components from CatalogDb", components.Count());
 
-        
         return _mapper.Map<IEnumerable<ComponentDto>>(components);
     }
+
     public async Task<ComponentDto?> GetByIdAsync(int id)
     {
-        var entity = await _uow.Components.GetByIdAsync(id);
+        // Завантажуємо всі з підключенням Категорії та Постачальника, а потім шукаємо за ID
+        var components = await _uow.Components.GetAllAsync(
+            c => c.Category,
+            c => c.Supplier
+        );
+
+        var entity = components.FirstOrDefault(c => c.Id == id);
 
         if (entity == null)
         {
@@ -63,7 +63,6 @@ public class ComponentService
         await _uow.Components.AddAsync(entity);
         await _uow.SaveChangesAsync();
 
-        // бізнес-лог + метрика
         _logger.LogInformation("Component created {@Component}", entity);
         AppMetrics.ComponentCreated();
     }
@@ -84,25 +83,19 @@ public class ComponentService
         return true;
     }
 
-
-    //kkkk
     public async Task<bool> UpdateAsync(int id, ComponentDto dto)
     {
-        // Шукаємо компонент
         var entity = await _uow.Components.GetByIdAsync(id);
         if (entity == null)
         {
             _logger.LogWarning("Try update component {Id}, but it not found", id);
-            return false; // Повертаємо false, якщо компонента немає в базі
+            return false;
         }
 
-        // Оновлюємо властивості
-       
         entity.Name = dto.Name;
         entity.Price = dto.Price;
         entity.Quantity = dto.Quantity;
 
-        //Зберігаємо зміни
         _uow.Components.Update(entity);
         await _uow.SaveChangesAsync();
 
@@ -110,17 +103,15 @@ public class ComponentService
         return true;
     }
 
-
     public async Task<IEnumerable<ComponentDto>> FilterAsync(
-    string? name,
-    decimal? minPrice,
-    decimal? maxPrice,
-    string sortBy = "Name",
-    string order = "asc",
-    int pageNumber = 1,
-    int pageSize = 10)
+        string? name,
+        decimal? minPrice,
+        decimal? maxPrice,
+        string sortBy = "Name",
+        string order = "asc",
+        int pageNumber = 1,
+        int pageSize = 10)
     {
-        
         var items = (await GetAllAsync()).AsQueryable();
 
         if (!string.IsNullOrWhiteSpace(name))
@@ -169,5 +160,4 @@ public class ComponentService
 
         return result;
     }
-
 }

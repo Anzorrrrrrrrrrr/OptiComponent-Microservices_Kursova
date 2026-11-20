@@ -13,8 +13,14 @@ interface LoginViewProps {
   onLogin: () => void
 }
 
+// Список пошт адміністраторів
+const ADMIN_EMAILS = [
+  "admin@opticomponent.com",
+  "admin@gmail.com",
+  "admin@ukr.net"
+]
+
 export function LoginView({ onLogin }: LoginViewProps) {
-  // Керування вкладками (щоб після реєстрації перекинути на логін)
   const [activeTab, setActiveTab] = useState("login")
 
   // Стейт для логіну
@@ -24,7 +30,6 @@ export function LoginView({ onLogin }: LoginViewProps) {
   const [isLoginLoading, setIsLoginLoading] = useState(false)
 
   // Стейт для реєстрації
-  const [registerName, setRegisterName] = useState("") // Поки що не відправляємо на бекенд, але залишаємо для UI
   const [registerEmail, setRegisterEmail] = useState("")
   const [registerPassword, setRegisterPassword] = useState("")
   const [registerConfirmPassword, setRegisterConfirmPassword] = useState("")
@@ -32,21 +37,49 @@ export function LoginView({ onLogin }: LoginViewProps) {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false)
   const [isRegisterLoading, setIsRegisterLoading] = useState(false)
 
-  // === ЛОГІКА ВХОДУ ===
+  // === ЛОГІКА ВХОДУ З ВИЗНАЧЕННЯМ РОЛІ ===
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoginLoading(true)
 
     try {
-      // УВАГА: Перевірте, чи правильний порт (тут 5247, як було у вашому коментарі)
       const response = await axios.post("https://localhost:7012/api/auth/login", {
         email: loginEmail,
         password: loginPassword
       })
 
-      const token = response.data.access_token 
+      const token = response.data.access_token
+      const normalizedEmail = loginEmail.trim().toLowerCase()
+
       localStorage.setItem("authToken", token)
-      onLogin() 
+      localStorage.setItem("userEmail", normalizedEmail)
+
+      // Визначаємо роль із JWT-токена або за поштою адміністратора
+      let role: "Admin" | "User" = "User"
+      try {
+        const base64Url = token.split(".")[1]
+        const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/")
+        const payload = JSON.parse(decodeURIComponent(escape(window.atob(base64))))
+        const jwtRole =
+          payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] ||
+          payload.role ||
+          payload.Role
+
+        if (
+          jwtRole === "Admin" ||
+          ADMIN_EMAILS.includes(normalizedEmail) ||
+          normalizedEmail.startsWith("admin@")
+        ) {
+          role = "Admin"
+        }
+      } catch {
+        if (ADMIN_EMAILS.includes(normalizedEmail) || normalizedEmail.startsWith("admin@")) {
+          role = "Admin"
+        }
+      }
+
+      localStorage.setItem("userRole", role)
+      onLogin()
     } catch (error) {
       console.error("Помилка входу:", error)
       alert("Невірний логін або пароль. Перевірте дані.")
@@ -55,11 +88,10 @@ export function LoginView({ onLogin }: LoginViewProps) {
     }
   }
 
-  // === НОВА ЛОГІКА РЕЄСТРАЦІЇ ===
+  // === ЛОГІКА РЕЄСТРАЦІЇ ===
   const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault()
 
-    // Базова перевірка на фронтенді
     if (registerPassword !== registerConfirmPassword) {
       alert("Паролі не співпадають!")
       return
@@ -73,22 +105,17 @@ export function LoginView({ onLogin }: LoginViewProps) {
     setIsRegisterLoading(true)
 
     try {
-      // Відправляємо дані на бекенд (згідно з вашим RegisterDto: Email та Password)
       await axios.post("https://localhost:7012/api/auth/register", {
         email: registerEmail,
         password: registerPassword
       })
 
       alert("Реєстрація успішна! Тепер ви можете увійти.")
-      
-      // Автоматично перекидаємо на вкладку логіну і підставляємо email
       setLoginEmail(registerEmail)
       setLoginPassword("")
       setActiveTab("login")
-
     } catch (error: any) {
       console.error("Помилка реєстрації:", error)
-      // C# Identity зазвичай повертає масив помилок, якщо пароль надто слабкий (немає великих літер, цифр тощо)
       if (error.response && error.response.data) {
         alert("Помилка реєстрації. Можливо, пароль занадто простий або такий email вже існує.\n\nДеталі в консолі (F12).")
         console.log(error.response.data)
@@ -113,8 +140,6 @@ export function LoginView({ onLogin }: LoginViewProps) {
           </div>
         </CardHeader>
         <CardContent>
-          
-          {/* Додали value та onValueChange для керування вкладками */}
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="login">Sign In</TabsTrigger>
@@ -229,7 +254,6 @@ export function LoginView({ onLogin }: LoginViewProps) {
                 </FieldGroup>
               </form>
             </TabsContent>
-            
           </Tabs>
         </CardContent>
       </Card>

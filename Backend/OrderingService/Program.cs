@@ -110,6 +110,18 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000", "https://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
 // HealthChecks
 builder.Services.AddHealthChecks()
     .AddSqlServer(orderingConn, name: "OrderingDb");
@@ -126,10 +138,10 @@ app.UseSerilogRequestLogging();
 
 app.UseGlobalExceptionMiddleware();
 
-app.UseCors("AllowAll");
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   // 🔹 NEW
+app.UseAuthentication();   
 app.UseAuthorization();
 
 app.MapControllers();

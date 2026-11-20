@@ -1,0 +1,193 @@
+2026-11-15 00:38:04.813 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-15 00:38:05.135 +02:00 [INF] Now listening on: https://localhost:7206
+2026-11-15 00:38:05.137 +02:00 [INF] Now listening on: http://localhost:5174
+2026-11-15 00:38:05.195 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-11-15 00:38:05.270 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-15 00:38:05.272 +02:00 [INF] Hosting environment: Development
+2026-11-15 00:38:05.274 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-11-15 00:38:06.518 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-11-15 00:38:07.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 486.2189ms
+2026-11-15 00:38:07.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-11-15 00:38:07.102 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-11-15 00:38:07.171 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 66.8073ms
+2026-11-15 00:38:07.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 346.6788ms
+2026-11-15 00:38:07.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-11-15 00:38:07.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.3016ms
+2026-11-15 00:39:48.247 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:39:48.264 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:39:48.330 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:39:48.330 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:39:48.332 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:39:48.333 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:39:48.337 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 79.9432 ms
+2026-11-15 00:39:48.337 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 63.7869 ms
+2026-11-15 00:39:48.341 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 93.3856ms
+2026-11-15 00:39:48.343 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 79.0757ms
+2026-11-15 00:39:48.355 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:39:48.355 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:39:48.360 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 2.1335 ms
+2026-11-15 00:39:48.361 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0864 ms
+2026-11-15 00:39:48.368 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 12.8346ms
+2026-11-15 00:39:48.368 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 12.8176ms
+2026-11-15 00:56:03.073 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:03.096 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:03.101 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:03.107 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 16.4548 ms
+2026-11-15 00:56:03.121 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 48.5578ms
+2026-11-15 00:56:03.135 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:03.147 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0937 ms
+2026-11-15 00:56:03.155 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 20.1139ms
+2026-11-15 00:56:03.289 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:03.326 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:03.334 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:03.340 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 14.9060 ms
+2026-11-15 00:56:03.351 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 62.5126ms
+2026-11-15 00:56:03.358 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:03.378 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0624 ms
+2026-11-15 00:56:03.385 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 26.5555ms
+2026-11-15 00:56:08.280 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:08.300 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:08.306 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:08.309 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 9.1791 ms
+2026-11-15 00:56:08.315 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 35.1887ms
+2026-11-15 00:56:08.322 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:08.339 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.1015 ms
+2026-11-15 00:56:08.349 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 26.9937ms
+2026-11-15 00:56:08.402 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:08.414 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:08.418 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:08.421 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 7.4580 ms
+2026-11-15 00:56:08.429 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 27.0481ms
+2026-11-15 00:56:08.434 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:08.445 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0655 ms
+2026-11-15 00:56:08.453 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 18.5672ms
+2026-11-15 00:56:30.687 +02:00 [INF] Отримано повідомлення з RabbitMQ: {"OrderId":15,"ProjectName":"jj","CreatedAt":"2026-11-14T22:56:29.5471457Z","Items":[{"ComponentId":2,"ComponentName":"dio","Quantity":1,"CurrentStock":1}]}
+2026-11-15 00:56:32.706 +02:00 [INF] Створено новий запис у MongoDB для 'dio' з ID 2 (Замовлення #15)
+2026-11-15 00:56:49.833 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:49.846 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:49.858 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:49.863 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:49.871 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:49.879 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:49.886 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 27.9318 ms
+2026-11-15 00:56:49.889 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 25.7120 ms
+2026-11-15 00:56:49.896 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 63.3616ms
+2026-11-15 00:56:49.905 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 59.1392ms
+2026-11-15 00:56:49.902 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:49.916 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:49.944 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0671 ms
+2026-11-15 00:56:49.962 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.1741 ms
+2026-11-15 00:56:49.977 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 74.9008ms
+2026-11-15 00:56:49.988 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 71.4492ms
+2026-11-15 00:56:52.620 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:52.644 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:52.649 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:52.659 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 15.3799 ms
+2026-11-15 00:56:52.668 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 48.3352ms
+2026-11-15 00:56:52.675 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:52.712 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0553 ms
+2026-11-15 00:56:52.722 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 46.3029ms
+2026-11-15 00:56:52.818 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 00:56:52.832 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:52.840 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 00:56:52.843 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 11.4579 ms
+2026-11-15 00:56:52.854 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 35.6886ms
+2026-11-15 00:56:52.860 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 00:56:52.876 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0792 ms
+2026-11-15 00:56:52.888 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 27.3848ms
+2026-11-15 01:21:10.255 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-15 01:21:11.235 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-11-15 01:21:11.317 +02:00 [INF] Now listening on: https://localhost:7206
+2026-11-15 01:21:11.326 +02:00 [INF] Now listening on: http://localhost:5174
+2026-11-15 01:21:12.136 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-15 01:21:12.156 +02:00 [INF] Hosting environment: Development
+2026-11-15 01:21:12.191 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-11-15 01:21:13.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-11-15 01:21:14.243 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-11-15 01:21:14.243 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-11-15 01:21:14.262 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 683.6407ms
+2026-11-15 01:21:14.440 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 195.956ms
+2026-11-15 01:21:14.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 440.9403ms
+2026-11-15 01:21:14.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-11-15 01:21:14.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 215.3225ms
+2026-11-15 01:23:01.324 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:23:01.537 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:01.543 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:23:01.558 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:01.603 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:01.618 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 258.8696 ms
+2026-11-15 01:23:01.620 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:01.628 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 303.7571ms
+2026-11-15 01:23:01.636 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 35.2847 ms
+2026-11-15 01:23:01.655 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:23:01.665 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 121.7555ms
+2026-11-15 01:23:01.672 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:23:01.681 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 5.5734 ms
+2026-11-15 01:23:01.730 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.2527 ms
+2026-11-15 01:23:01.759 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 86.1949ms
+2026-11-15 01:23:01.759 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 103.7649ms
+2026-11-15 01:23:30.450 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:23:30.494 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:30.520 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:30.548 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 61.3693 ms
+2026-11-15 01:23:30.600 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 149.5719ms
+2026-11-15 01:23:30.607 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:23:30.683 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0838 ms
+2026-11-15 01:23:30.699 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 91.8147ms
+2026-11-15 01:23:30.753 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:23:30.782 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:30.808 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:23:30.839 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 57.1004 ms
+2026-11-15 01:23:30.892 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 138.8112ms
+2026-11-15 01:23:30.899 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:23:30.994 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0620 ms
+2026-11-15 01:23:31.002 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 102.6866ms
+2026-11-15 01:27:17.790 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:27:17.804 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:27:17.807 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:27:17.812 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 8.2601 ms
+2026-11-15 01:27:17.822 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 32.5019ms
+2026-11-15 01:27:17.830 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:27:17.852 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.1448 ms
+2026-11-15 01:27:17.859 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 01:27:17.863 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 32.7026ms
+2026-11-15 01:27:17.869 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:27:17.881 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 01:27:17.885 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 16.2932 ms
+2026-11-15 01:27:17.891 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 32.5367ms
+2026-11-15 01:27:17.924 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 01:27:17.938 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.0538 ms
+2026-11-15 01:27:17.950 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 25.9718ms
+2026-11-15 15:39:50.254 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-15 15:39:50.990 +02:00 [INF] Now listening on: https://localhost:7206
+2026-11-15 15:39:51.000 +02:00 [INF] Now listening on: http://localhost:5174
+2026-11-15 15:39:51.137 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-11-15 15:39:51.278 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-15 15:39:51.280 +02:00 [INF] Hosting environment: Development
+2026-11-15 15:39:51.282 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-11-15 15:39:51.863 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-11-15 15:39:52.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 338.8511ms
+2026-11-15 15:39:52.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-11-15 15:39:52.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-11-15 15:39:52.289 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 18.3102ms
+2026-11-15 15:39:52.351 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.5276ms
+2026-11-15 15:39:52.550 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-11-15 15:39:52.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.8143ms
+2026-11-15 15:40:45.383 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 15:40:45.487 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/StockItems - null null
+2026-11-15 15:40:45.527 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 15:40:45.528 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-11-15 15:40:45.533 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 15:40:45.534 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-11-15 15:40:45.544 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 38.6183 ms
+2026-11-15 15:40:45.544 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 405 in 146.5896 ms
+2026-11-15 15:40:45.551 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 63.4685ms
+2026-11-15 15:40:45.557 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/StockItems - 405 0 null 174.07ms
+2026-11-15 15:40:45.573 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 15:40:45.573 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - null null
+2026-11-15 15:40:45.594 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 3.2413 ms
+2026-11-15 15:40:45.598 +02:00 [INF] HTTP OPTIONS /api/StockItems responded 307 in 0.1467 ms
+2026-11-15 15:40:45.614 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 40.9459ms
+2026-11-15 15:40:45.615 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5174/api/StockItems - 307 0 null 42.707ms
+2026-11-15 16:49:11.408 +02:00 [INF] Отримано повідомлення з RabbitMQ: {"OrderId":16,"ProjectName":"\u0422\u041E\u0412 \u0415\u0414\u0415\u0419\u0412","CreatedAt":"2026-11-15T14:49:10.1292827Z","Items":[{"ComponentId":3,"ComponentName":"ESP-32","Quantity":5,"CurrentStock":5}]}
+2026-11-15 16:49:13.461 +02:00 [INF] Inventory updated in MongoDB for ESP-32: -5 pcs.

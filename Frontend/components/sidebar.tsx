@@ -1,9 +1,9 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import { type View } from "@/app/page"
 import { cn } from "@/lib/utils"
-// ДОДАНО ІКОНКУ Settings (Або Folder, за бажанням)
-import { Cpu, Package, Warehouse, ShoppingCart, LogOut, Settings } from "lucide-react" 
+import { Cpu, Package, Warehouse, ShoppingCart, LogOut, Settings } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
@@ -12,15 +12,37 @@ interface SidebarProps {
   onNavigate: (view: View) => void
 }
 
-// ДОДАНО НОВИЙ ПУНКТ МЕНЮ
 const navItems = [
-  { id: "catalog" as const, label: "Catalog", icon: Package },
-  { id: "inventory" as const, label: "Inventory", icon: Warehouse },
-  { id: "orders" as const, label: "Orders", icon: ShoppingCart },
-  { id: "dictionaries" as const, label: "Dictionaries", icon: Settings }, 
+  { id: "catalog" as const, label: "Catalog", icon: Package, adminOnly: false },
+  { id: "inventory" as const, label: "Inventory", icon: Warehouse, adminOnly: false },
+  { id: "orders" as const, label: "Orders", icon: ShoppingCart, adminOnly: false },
+  { id: "dictionaries" as const, label: "Dictionaries", icon: Settings, adminOnly: true },
 ]
 
 export function Sidebar({ currentView, onNavigate }: SidebarProps) {
+  const [userRole, setUserRole] = useState<"Admin" | "User">("User")
+
+  useEffect(() => {
+    const role = localStorage.getItem("userRole") as "Admin" | "User" | null
+    const email = (localStorage.getItem("userEmail") || "").toLowerCase()
+    if (role === "Admin" || email.startsWith("admin@")) {
+      setUserRole("Admin")
+    } else {
+      setUserRole("User")
+    }
+  }, [currentView])
+
+  const visibleNavItems = navItems.filter(
+    (item) => !item.adminOnly || userRole === "Admin"
+  )
+
+  const handleLogout = () => {
+    localStorage.removeItem("authToken")
+    localStorage.removeItem("userEmail")
+    localStorage.removeItem("userRole")
+    onNavigate("login")
+  }
+
   return (
     <aside className="flex w-64 flex-col bg-sidebar text-sidebar-foreground">
       {/* Logo */}
@@ -36,7 +58,7 @@ export function Sidebar({ currentView, onNavigate }: SidebarProps) {
       {/* Navigation */}
       <nav className="flex-1 px-3 py-4">
         <ul className="space-y-1">
-          {navItems.map((item) => {
+          {visibleNavItems.map((item) => {
             const Icon = item.icon
             const isActive = currentView === item.id
             return (
@@ -65,7 +87,7 @@ export function Sidebar({ currentView, onNavigate }: SidebarProps) {
         <Button
           variant="ghost"
           className="w-full justify-start gap-3 text-sidebar-foreground/70 hover:bg-sidebar-accent/50 hover:text-sidebar-foreground"
-          onClick={() => onNavigate("login")}
+          onClick={handleLogout}
         >
           <LogOut className="h-5 w-5" />
           Logout

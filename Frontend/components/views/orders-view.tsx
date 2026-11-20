@@ -44,11 +44,15 @@ export function OrdersView() {
   const [customerName, setCustomerName] = useState("")
   const [cartItem, setCartItem] = useState({ componentId: "", quantity: "1" })
 
+  // Отримуємо замовлення з CatalogService (порт 7284)
   const fetchOrders = async () => {
     setIsLoading(true)
+    setError(null)
     try {
       const token = localStorage.getItem("authToken");
-      const response = await axios.get("https://localhost:7284/api/Orders", { headers: { Authorization: `Bearer ${token}` } })
+      const response = await axios.get("https://localhost:7284/api/Orders", { 
+        headers: { Authorization: `Bearer ${token}` } 
+      })
       setOrders(response.data)
     } catch (err) {
       console.error("Помилка:", err)
@@ -61,7 +65,9 @@ export function OrdersView() {
   const fetchComponentsForCart = async () => {
     try {
       const token = localStorage.getItem("authToken");
-      const response = await axios.get("https://localhost:7284/api/Components", { headers: { Authorization: `Bearer ${token}` } })
+      const response = await axios.get("https://localhost:7284/api/Components", { 
+        headers: { Authorization: `Bearer ${token}` } 
+      })
       setComponents(response.data)
     } catch (err) {
       console.error("Помилка каталогу:", err)
@@ -79,12 +85,20 @@ export function OrdersView() {
 
     try {
       const token = localStorage.getItem("authToken");
+      
+      // Формуємо payload відповідно до OrderCreateDto у CatalogService
       const payload = {
         customerName: customerName,
-        items: [{ componentId: parseInt(cartItem.componentId), quantity: parseInt(cartItem.quantity) }]
+        items: [{ 
+          componentId: parseInt(cartItem.componentId), 
+          quantity: parseInt(cartItem.quantity) 
+        }]
       };
 
-      await axios.post("https://localhost:7284/api/Orders", payload, { headers: { Authorization: `Bearer ${token}` } });
+      // Надсилаємо POST-запит на CatalogService (порт 7284)
+      await axios.post("https://localhost:7284/api/Orders", payload, { 
+        headers: { Authorization: `Bearer ${token}` } 
+      });
 
       setIsCreateModalOpen(false)
       setCustomerName("")
@@ -105,7 +119,6 @@ export function OrdersView() {
 
   const selectedComponent = components.find(c => c.id.toString() === cartItem.componentId);
 
-  // Функція: Правильне форматування часу з урахуванням часового поясу (UTC -> Local)
   const formatLocalTime = (dateString: string) => {
     const utcDateString = dateString.endsWith('Z') ? dateString : dateString + 'Z';
     return new Date(utcDateString).toLocaleString('uk-UA', {
@@ -157,7 +170,6 @@ export function OrdersView() {
               orders.map((item) => (
                 <tr key={item.id} className="hover:bg-gray-50 transition">
                   <td className="p-4 font-medium text-blue-600">{item.orderNumber}</td>
-                  {/* ВИПРАВЛЕНО ЧАС */}
                   <td className="p-4">{formatLocalTime(item.orderDate)}</td>
                   <td className="p-4">{item.customerName}</td>
                   <td className="p-4">
@@ -181,22 +193,19 @@ export function OrdersView() {
         </table>
       </div>
 
-      {/* МОДАЛКА ПЕРЕГЛЯДУ ДЕТАЛЕЙ ЗАМОВЛЕННЯ (ЧЕК) */}
+      {/* МОДАЛКА ПЕРЕГЛЯДУ ДЕТАЛЕЙ ЗАМОВЛЕННЯ */}
       {selectedOrder && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg shadow-xl w-full max-w-md p-0 overflow-hidden border-t-4 border-blue-500">
-            {/* Шапка чеку */}
             <div className="bg-gray-50 p-6 border-b text-center relative">
               <button onClick={() => setSelectedOrder(null)} className="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
                 <X className="w-5 h-5" />
               </button>
               <Receipt className="w-8 h-8 mx-auto text-blue-500 mb-2" />
               <h2 className="text-xl font-bold text-gray-900">{selectedOrder.orderNumber}</h2>
-              {/* ВИПРАВЛЕНО ЧАС */}
               <p className="text-sm text-gray-500">{formatLocalTime(selectedOrder.orderDate)}</p>
             </div>
             
-            {/* Дані клієнта */}
             <div className="p-6 space-y-4">
               <div className="flex justify-between text-sm">
                 <span className="text-gray-500">Клієнт:</span>
@@ -209,7 +218,6 @@ export function OrdersView() {
 
               <div className="border-t border-dashed my-4"></div>
 
-              {/* Список товарів */}
               <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Позиції замовлення</h3>
               <ul className="space-y-3">
                 {selectedOrder.items?.map((detail, idx) => (
@@ -225,14 +233,12 @@ export function OrdersView() {
 
               <div className="border-t border-dashed my-4"></div>
 
-              {/* Разом */}
               <div className="flex justify-between items-center text-lg font-bold">
                 <span>Разом:</span>
                 <span className="text-green-600">${selectedOrder.totalPrice.toFixed(2)}</span>
               </div>
             </div>
             
-            {/* Підвал */}
             <div className="bg-gray-50 p-4 border-t text-center">
               <button onClick={() => setSelectedOrder(null)} className="px-6 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition text-sm font-medium">
                 Закрити

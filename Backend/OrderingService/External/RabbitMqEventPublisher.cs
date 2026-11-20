@@ -23,20 +23,24 @@ public class RabbitMqEventPublisher : IEventPublisher
     {
         var factory = new ConnectionFactory
         {
-            HostName = _config["RabbitMq:Host"],
-            UserName = _config["RabbitMq:UserName"],
-            Password = _config["RabbitMq:Password"]
+            HostName = _config["RabbitMq:Host"] ?? "localhost",
+            UserName = _config["RabbitMq:UserName"] ?? "guest",
+            Password = _config["RabbitMq:Password"] ?? "guest"
         };
 
-        // новий API: асинхронний конекшен + канал
         await using var connection = await factory.CreateConnectionAsync();
         await using var channel = await connection.CreateChannelAsync();
 
-        var exchange = _config["RabbitMq:Exchange"];
-        var routingKey = _config["RabbitMq:RoutingKey"];
+        // Отримуємо назву черги з конфігурації (або використовуємо дефолтну)
+        var queueName = _config["RabbitMq:Queue"] ?? "order_created_queue";
 
-        // асинхронне оголошення exchange
-        await channel.ExchangeDeclareAsync(exchange, ExchangeType.Topic, durable: true);
+        // Гарантуємо, що черга існує (durable: true)
+        await channel.QueueDeclareAsync(
+            queue: queueName,
+            durable: true,
+            exclusive: false,
+            autoDelete: false,
+            arguments: null);
 
         var message = new OrderCreatedEvent
         {
@@ -51,18 +55,17 @@ public class RabbitMqEventPublisher : IEventPublisher
         };
 
         var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
-
         var props = new BasicProperties();
 
+        // Публікуємо напряму в чергу (exchange: "")
         await channel.BasicPublishAsync(
-            exchange: exchange,
-            routingKey: routingKey,
+            exchange: "",
+            routingKey: queueName,
             mandatory: false,
             basicProperties: props,
             body: body,
             cancellationToken: CancellationToken.None);
 
-        _logger.LogInformation("Published OrderCreated event for order {OrderId}", order.Id);
-
+        _logger.LogInformation("Published OrderCreated event directly to queue {Queue} for order {OrderId}", queueName, order.Id);
     }
 }

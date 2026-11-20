@@ -1,0 +1,1026 @@
+2026-05-14 21:45:23.441 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-14 21:45:23.754 +03:00 [INF] Now listening on: https://localhost:7284
+2026-05-14 21:45:23.757 +03:00 [INF] Now listening on: http://localhost:5155
+2026-05-14 21:45:23.888 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 21:45:23.890 +03:00 [INF] Hosting environment: Development
+2026-05-14 21:45:23.892 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\CatalogService
+2026-05-14 21:45:24.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2026-05-14 21:45:25.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 339.7288ms
+2026-05-14 21:45:25.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-14 21:45:25.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2026-05-14 21:45:25.363 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 19.3716ms
+2026-05-14 21:45:25.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.8083ms
+2026-05-14 21:45:25.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2026-05-14 21:45:25.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.5011ms
+2026-05-14 21:50:04.371 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-14 21:50:04.682 +03:00 [INF] Now listening on: https://localhost:7284
+2026-05-14 21:50:04.685 +03:00 [INF] Now listening on: http://localhost:5155
+2026-05-14 21:50:04.813 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-14 21:50:04.817 +03:00 [INF] Hosting environment: Development
+2026-05-14 21:50:04.819 +03:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\CatalogService
+2026-05-14 21:50:05.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2026-05-14 21:50:05.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 251.1194ms
+2026-05-14 21:50:05.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-14 21:50:05.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2026-05-14 21:50:05.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 39.1552ms
+2026-05-14 21:50:05.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.2645ms
+2026-05-14 21:50:05.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2026-05-14 21:50:06.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.302ms
+2026-05-14 21:52:57.461 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:52:57.463 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:52:57.464 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:52:57.461 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:52:57.478 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.478 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.479 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.481 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.483 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 22.6729ms
+2026-05-14 21:52:57.483 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 20.0885ms
+2026-05-14 21:52:57.484 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 19.1849ms
+2026-05-14 21:52:57.488 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 28.0956ms
+2026-05-14 21:52:57.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:52:57.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:52:57.508 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.510 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.637 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:52:57.637 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:52:57.658 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:52:57.658 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:52:57.686 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:52:57.689 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.690 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 3.5321ms
+2026-05-14 21:52:57.696 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:52:57.701 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:57.716 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:52:57.724 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:52:58.256 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Component'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-14 21:52:58.259 +03:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-14 21:52:58.260 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-14 21:52:58.926 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:52:58.926 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:52:58.926 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:52:58.959 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:52:58.959 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:52:58.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:52:58.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:52:58.975 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 1310.9027ms
+2026-05-14 21:52:58.975 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 1309.2928ms
+2026-05-14 21:52:58.976 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:58.978 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:52:58.980 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:52:58.980 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:52:58.981 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:52:58.982 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:52:58.985 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:52:58.986 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:52:58.986 +03:00 [INF] HTTP GET /api/Categories responded 200 in 1471.6862 ms
+2026-05-14 21:52:58.986 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 1471.6869 ms
+2026-05-14 21:52:58.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 1507.9218ms
+2026-05-14 21:52:58.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 1505.9945ms
+2026-05-14 21:52:59.012 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:52:59.026 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:52:59.035 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 1308.7448ms
+2026-05-14 21:52:59.041 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:52:59.041 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:52:59.041 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:52:59.042 +03:00 [INF] HTTP GET /api/Components responded 200 in 1339.6070 ms
+2026-05-14 21:52:59.044 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:52:59.045 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:52:59.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 1352.1945ms
+2026-05-14 21:52:59.048 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 59.5704ms
+2026-05-14 21:52:59.050 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 62.8223ms
+2026-05-14 21:52:59.054 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:52:59.055 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:52:59.056 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 74.1492 ms
+2026-05-14 21:52:59.057 +03:00 [INF] HTTP GET /api/Categories responded 200 in 75.6599 ms
+2026-05-14 21:52:59.059 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 85.5578ms
+2026-05-14 21:52:59.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 87.2523ms
+2026-05-14 21:53:08.995 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/21 - null null
+2026-05-14 21:53:08.997 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:08.999 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/21 - 204 null null 4.0056ms
+2026-05-14 21:53:09.002 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7284/api/Components/21 - application/json 131
+2026-05-14 21:53:09.007 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:09.009 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:09.020 +03:00 [INF] Route matched with {action = "Update", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CatalogService.BLL.DTOs.ComponentDto) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:09.155 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId]
+FROM [Components] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-05-14 21:53:09.236 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Components] SET [CategoryId] = @p0, [Name] = @p1, [Price] = @p2, [Quantity] = @p3, [SupplierId] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2026-05-14 21:53:09.247 +03:00 [INF] Component updated {"Id":21,"Name":"resistor 20Kom","Price":3,"CategoryId":18,"SupplierId":18,"Quantity":30,"Category":null,"Supplier":null,"Datasheet":null,"$type":"Component"}
+2026-05-14 21:53:09.255 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-14 21:53:09.257 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Update (CatalogService) in 236.3257ms
+2026-05-14 21:53:09.260 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:09.261 +03:00 [INF] HTTP PUT /api/Components/21 responded 200 in 252.8470 ms
+2026-05-14 21:53:09.262 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7284/api/Components/21 - 200 null application/json; charset=utf-8 260.5276ms
+2026-05-14 21:53:09.266 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:53:09.269 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:09.270 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 4.6191ms
+2026-05-14 21:53:09.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:09.276 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:09.278 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:09.279 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:09.285 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:09.288 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:09.290 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:09.291 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 10.4362ms
+2026-05-14 21:53:09.292 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:09.293 +03:00 [INF] HTTP GET /api/Components responded 200 in 16.1575 ms
+2026-05-14 21:53:09.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 22.0389ms
+2026-05-14 21:53:17.217 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/1 - null null
+2026-05-14 21:53:17.221 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:17.222 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/1 - 204 null null 4.8632ms
+2026-05-14 21:53:17.224 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7284/api/Components/1 - application/json 126
+2026-05-14 21:53:17.228 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:17.230 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:17.231 +03:00 [INF] Route matched with {action = "Update", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CatalogService.BLL.DTOs.ComponentDto) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:17.242 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId]
+FROM [Components] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-05-14 21:53:17.249 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Components] SET [CategoryId] = @p0, [Name] = @p1, [Price] = @p2, [Quantity] = @p3, [SupplierId] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2026-05-14 21:53:17.252 +03:00 [INF] Component updated {"Id":1,"Name":"resistor","Price":100,"CategoryId":1,"SupplierId":1,"Quantity":3,"Category":null,"Supplier":null,"Datasheet":null,"$type":"Component"}
+2026-05-14 21:53:17.258 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-14 21:53:17.259 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Update (CatalogService) in 26.3193ms
+2026-05-14 21:53:17.261 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:17.262 +03:00 [INF] HTTP PUT /api/Components/1 responded 200 in 32.4751 ms
+2026-05-14 21:53:17.264 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7284/api/Components/1 - 200 null application/json; charset=utf-8 39.56ms
+2026-05-14 21:53:17.267 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:53:17.270 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:17.271 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 3.9116ms
+2026-05-14 21:53:17.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:17.277 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:17.278 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:17.279 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:17.286 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:17.289 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:17.290 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:17.291 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 10.9536ms
+2026-05-14 21:53:17.293 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:17.294 +03:00 [INF] HTTP GET /api/Components responded 200 in 16.1957 ms
+2026-05-14 21:53:17.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 22.4595ms
+2026-05-14 21:53:19.287 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:19.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:19.288 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:19.290 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.292 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.294 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.295 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Orders - 204 null null 8.6805ms
+2026-05-14 21:53:19.297 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Orders - 204 null null 9.9462ms
+2026-05-14 21:53:19.297 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:19.298 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:19.304 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:19.306 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.309 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:19.310 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:19.314 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:19.314 +03:00 [INF] Route matched with {action = "GetAllOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllOrders() on controller CatalogService.Controllers.OrdersController (CatalogService).
+2026-05-14 21:53:19.315 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:19.318 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 9.7785ms
+2026-05-14 21:53:19.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:19.319 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:19.321 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.322 +03:00 [INF] HTTP GET /api/Components responded 200 in 25.5833 ms
+2026-05-14 21:53:19.323 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:19.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 38.0814ms
+2026-05-14 21:53:19.325 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:19.331 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:19.335 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:19.336 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:19.337 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 8.2005ms
+2026-05-14 21:53:19.339 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:19.340 +03:00 [INF] HTTP GET /api/Components responded 200 in 16.8017 ms
+2026-05-14 21:53:19.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 22.154ms
+2026-05-14 21:53:19.403 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderNumber], [o].[CustomerName], [o].[OrderDate], [o].[TotalPrice], CASE [o].[Status]
+    WHEN 0 THEN N'New'
+    WHEN 1 THEN N'Processing'
+    WHEN 2 THEN N'Shipped'
+    WHEN 3 THEN N'Completed'
+    WHEN 4 THEN N'Cancelled'
+    ELSE CAST([o].[Status] AS nvarchar(max))
+END, (
+    SELECT COUNT(*)
+    FROM [OrderItems] AS [o0]
+    WHERE [o].[Id] = [o0].[OrderId]), [s].[ComponentName], [s].[Quantity], [s].[UnitPrice], [s].[Id], [s].[Id0]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [c].[Name] AS [ComponentName], [o1].[Quantity], [o1].[UnitPrice], [o1].[Id], [c].[Id] AS [Id0], [o1].[OrderId]
+    FROM [OrderItems] AS [o1]
+    INNER JOIN [Components] AS [c] ON [o1].[ComponentId] = [c].[Id]
+) AS [s] ON [o].[Id] = [s].[OrderId]
+ORDER BY [o].[OrderDate] DESC, [o].[Id], [s].[Id]
+2026-05-14 21:53:19.410 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType2`8[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:19.420 +03:00 [INF] Executed action CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService) in 103.3635ms
+2026-05-14 21:53:19.421 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:19.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:19.423 +03:00 [INF] HTTP GET /api/Orders responded 200 in 114.3993 ms
+2026-05-14 21:53:19.425 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:19.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Orders - 200 null application/json; charset=utf-8 129.0378ms
+2026-05-14 21:53:19.428 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:19.431 +03:00 [INF] Route matched with {action = "GetAllOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllOrders() on controller CatalogService.Controllers.OrdersController (CatalogService).
+2026-05-14 21:53:19.437 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderNumber], [o].[CustomerName], [o].[OrderDate], [o].[TotalPrice], CASE [o].[Status]
+    WHEN 0 THEN N'New'
+    WHEN 1 THEN N'Processing'
+    WHEN 2 THEN N'Shipped'
+    WHEN 3 THEN N'Completed'
+    WHEN 4 THEN N'Cancelled'
+    ELSE CAST([o].[Status] AS nvarchar(max))
+END, (
+    SELECT COUNT(*)
+    FROM [OrderItems] AS [o0]
+    WHERE [o].[Id] = [o0].[OrderId]), [s].[ComponentName], [s].[Quantity], [s].[UnitPrice], [s].[Id], [s].[Id0]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [c].[Name] AS [ComponentName], [o1].[Quantity], [o1].[UnitPrice], [o1].[Id], [c].[Id] AS [Id0], [o1].[OrderId]
+    FROM [OrderItems] AS [o1]
+    INNER JOIN [Components] AS [c] ON [o1].[ComponentId] = [c].[Id]
+) AS [s] ON [o].[Id] = [s].[OrderId]
+ORDER BY [o].[OrderDate] DESC, [o].[Id], [s].[Id]
+2026-05-14 21:53:19.439 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType2`8[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:19.441 +03:00 [INF] Executed action CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService) in 7.7694ms
+2026-05-14 21:53:19.443 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:19.444 +03:00 [INF] HTTP GET /api/Orders responded 200 in 16.1379 ms
+2026-05-14 21:53:19.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Orders - 200 null application/json; charset=utf-8 23.5859ms
+2026-05-14 21:53:25.441 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:25.442 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:25.443 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:25.443 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:25.448 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.452 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.456 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.458 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:25.469 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 26.0564ms
+2026-05-14 21:53:25.460 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 18.7124ms
+2026-05-14 21:53:25.464 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:25.462 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 19.5584ms
+2026-05-14 21:53:25.459 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 17.9607ms
+2026-05-14 21:53:25.474 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.483 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.490 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:25.490 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:25.491 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:53:25.492 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:53:25.497 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:53:25.501 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:53:25.502 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:25.503 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:25.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:25.507 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 10.1259ms
+2026-05-14 21:53:25.505 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 10.9562ms
+2026-05-14 21:53:25.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:25.509 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.510 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:25.512 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:25.514 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.515 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:25.516 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 25.9354 ms
+2026-05-14 21:53:25.517 +03:00 [INF] HTTP GET /api/Categories responded 200 in 27.4589 ms
+2026-05-14 21:53:25.518 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:25.519 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:53:25.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 56.1617ms
+2026-05-14 21:53:25.528 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:53:25.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 59.6898ms
+2026-05-14 21:53:25.524 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:53:25.533 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:25.540 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:53:25.541 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 14.9694ms
+2026-05-14 21:53:25.543 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:25.544 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:25.545 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 8.1078ms
+2026-05-14 21:53:25.546 +03:00 [INF] HTTP GET /api/Categories responded 200 in 31.3313 ms
+2026-05-14 21:53:25.547 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:25.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 43.7178ms
+2026-05-14 21:53:25.550 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 32.4866 ms
+2026-05-14 21:53:25.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 47.0244ms
+2026-05-14 21:53:25.748 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:53:25.752 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.753 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 4.4748ms
+2026-05-14 21:53:25.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:25.758 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:25.759 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:25.760 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:25.764 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:25.768 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:25.768 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:25.770 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.5793ms
+2026-05-14 21:53:25.771 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:25.772 +03:00 [INF] HTTP GET /api/Components responded 200 in 12.3597 ms
+2026-05-14 21:53:25.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 18.5017ms
+2026-05-14 21:53:32.286 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/2 - null null
+2026-05-14 21:53:32.288 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:32.289 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/2 - 204 null null 3.3313ms
+2026-05-14 21:53:32.291 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7284/api/Components/2 - application/json 119
+2026-05-14 21:53:32.295 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:32.296 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:32.297 +03:00 [INF] Route matched with {action = "Update", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CatalogService.BLL.DTOs.ComponentDto) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:32.303 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId]
+FROM [Components] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-05-14 21:53:32.309 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Components] SET [CategoryId] = @p0, [Name] = @p1, [Price] = @p2, [Quantity] = @p3, [SupplierId] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2026-05-14 21:53:32.311 +03:00 [INF] Component updated {"Id":2,"Name":"dio","Price":300,"CategoryId":5,"SupplierId":5,"Quantity":2,"Category":null,"Supplier":null,"Datasheet":null,"$type":"Component"}
+2026-05-14 21:53:32.317 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-14 21:53:32.318 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Update (CatalogService) in 19.5233ms
+2026-05-14 21:53:32.320 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Update (CatalogService)'
+2026-05-14 21:53:32.321 +03:00 [INF] HTTP PUT /api/Components/2 responded 200 in 25.1345 ms
+2026-05-14 21:53:32.322 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7284/api/Components/2 - 200 null application/json; charset=utf-8 31.2273ms
+2026-05-14 21:53:32.324 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:53:32.328 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:32.328 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 4.1461ms
+2026-05-14 21:53:32.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:32.334 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:32.335 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:32.336 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:32.339 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:32.343 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:32.343 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:32.345 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.4397ms
+2026-05-14 21:53:32.346 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:32.347 +03:00 [INF] HTTP GET /api/Components responded 200 in 12.1433 ms
+2026-05-14 21:53:32.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 18.948ms
+2026-05-14 21:53:37.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:37.221 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:37.222 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:37.226 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.229 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.231 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.232 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:37.232 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Orders - 204 null null 11.4528ms
+2026-05-14 21:53:37.234 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:37.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:37.241 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:37.233 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Orders - 204 null null 10.9576ms
+2026-05-14 21:53:37.243 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.245 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:37.249 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:37.249 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:37.250 +03:00 [INF] Route matched with {action = "GetAllOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllOrders() on controller CatalogService.Controllers.OrdersController (CatalogService).
+2026-05-14 21:53:37.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:37.251 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 12.3331ms
+2026-05-14 21:53:37.257 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.256 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderNumber], [o].[CustomerName], [o].[OrderDate], [o].[TotalPrice], CASE [o].[Status]
+    WHEN 0 THEN N'New'
+    WHEN 1 THEN N'Processing'
+    WHEN 2 THEN N'Shipped'
+    WHEN 3 THEN N'Completed'
+    WHEN 4 THEN N'Cancelled'
+    ELSE CAST([o].[Status] AS nvarchar(max))
+END, (
+    SELECT COUNT(*)
+    FROM [OrderItems] AS [o0]
+    WHERE [o].[Id] = [o0].[OrderId]), [s].[ComponentName], [s].[Quantity], [s].[UnitPrice], [s].[Id], [s].[Id0]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [c].[Name] AS [ComponentName], [o1].[Quantity], [o1].[UnitPrice], [o1].[Id], [c].[Id] AS [Id0], [o1].[OrderId]
+    FROM [OrderItems] AS [o1]
+    INNER JOIN [Components] AS [c] ON [o1].[ComponentId] = [c].[Id]
+) AS [s] ON [o].[Id] = [s].[OrderId]
+ORDER BY [o].[OrderDate] DESC, [o].[Id], [s].[Id]
+2026-05-14 21:53:37.258 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:37.259 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:37.261 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType2`8[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:37.261 +03:00 [INF] HTTP GET /api/Components responded 200 in 29.6397 ms
+2026-05-14 21:53:37.262 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:37.264 +03:00 [INF] Executed action CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService) in 10.3176ms
+2026-05-14 21:53:37.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 45.7274ms
+2026-05-14 21:53:37.269 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:37.269 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:37.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Orders - null null
+2026-05-14 21:53:37.274 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:37.275 +03:00 [INF] HTTP GET /api/Orders responded 200 in 26.5604 ms
+2026-05-14 21:53:37.277 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:37.278 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:37.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Orders - 200 null application/json; charset=utf-8 45.0317ms
+2026-05-14 21:53:37.281 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:37.282 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 14.7542ms
+2026-05-14 21:53:37.285 +03:00 [INF] Route matched with {action = "GetAllOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllOrders() on controller CatalogService.Controllers.OrdersController (CatalogService).
+2026-05-14 21:53:37.286 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:37.289 +03:00 [INF] HTTP GET /api/Components responded 200 in 30.0790 ms
+2026-05-14 21:53:37.290 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderNumber], [o].[CustomerName], [o].[OrderDate], [o].[TotalPrice], CASE [o].[Status]
+    WHEN 0 THEN N'New'
+    WHEN 1 THEN N'Processing'
+    WHEN 2 THEN N'Shipped'
+    WHEN 3 THEN N'Completed'
+    WHEN 4 THEN N'Cancelled'
+    ELSE CAST([o].[Status] AS nvarchar(max))
+END, (
+    SELECT COUNT(*)
+    FROM [OrderItems] AS [o0]
+    WHERE [o].[Id] = [o0].[OrderId]), [s].[ComponentName], [s].[Quantity], [s].[UnitPrice], [s].[Id], [s].[Id0]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [c].[Name] AS [ComponentName], [o1].[Quantity], [o1].[UnitPrice], [o1].[Id], [c].[Id] AS [Id0], [o1].[OrderId]
+    FROM [OrderItems] AS [o1]
+    INNER JOIN [Components] AS [c] ON [o1].[ComponentId] = [c].[Id]
+) AS [s] ON [o].[Id] = [s].[OrderId]
+ORDER BY [o].[OrderDate] DESC, [o].[Id], [s].[Id]
+2026-05-14 21:53:37.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 39.9063ms
+2026-05-14 21:53:37.294 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType2`8[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:37.298 +03:00 [INF] Executed action CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService) in 10.3357ms
+2026-05-14 21:53:37.300 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.OrdersController.GetAllOrders (CatalogService)'
+2026-05-14 21:53:37.301 +03:00 [INF] HTTP GET /api/Orders responded 200 in 20.0120 ms
+2026-05-14 21:53:37.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Orders - 200 null application/json; charset=utf-8 37.8383ms
+2026-05-14 21:53:42.957 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:42.959 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:42.959 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:42.959 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:42.963 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.965 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.967 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.969 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.972 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:42.970 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 11.0439ms
+2026-05-14 21:53:42.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:42.971 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 11.766ms
+2026-05-14 21:53:42.972 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 13.8235ms
+2026-05-14 21:53:42.970 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 12.8128ms
+2026-05-14 21:53:42.975 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.979 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:42.988 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:42.988 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:42.989 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:53:42.990 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:53:42.993 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:53:42.996 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:53:42.999 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:43.000 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:43.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:53:43.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:53:43.001 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 9.7723ms
+2026-05-14 21:53:43.003 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 8.4536ms
+2026-05-14 21:53:43.005 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:43.007 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:43.008 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:43.009 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:43.010 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:43.011 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:43.012 +03:00 [INF] HTTP GET /api/Categories responded 200 in 24.0136 ms
+2026-05-14 21:53:43.012 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 24.2188 ms
+2026-05-14 21:53:43.013 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:53:43.014 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:53:43.021 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:53:43.024 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:53:43.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 44.1635ms
+2026-05-14 21:53:43.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 45.0234ms
+2026-05-14 21:53:43.026 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:43.028 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:43.035 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 16.0988ms
+2026-05-14 21:53:43.036 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 13.9312ms
+2026-05-14 21:53:43.037 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:53:43.038 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:53:43.039 +03:00 [INF] HTTP GET /api/Categories responded 200 in 29.0888 ms
+2026-05-14 21:53:43.040 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 29.3209 ms
+2026-05-14 21:53:43.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 39.4932ms
+2026-05-14 21:53:43.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 39.3988ms
+2026-05-14 21:53:43.260 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:53:43.262 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:43.262 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 3.0346ms
+2026-05-14 21:53:43.264 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:53:43.268 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:53:43.269 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:43.270 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:53:43.274 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:53:43.276 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:53:43.277 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:53:43.279 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.4486ms
+2026-05-14 21:53:43.280 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:53:43.281 +03:00 [INF] HTTP GET /api/Components responded 200 in 12.1006 ms
+2026-05-14 21:53:43.282 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 18.1063ms
+2026-05-14 21:54:02.337 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:02.340 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:02.338 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:02.340 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:02.342 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.344 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.347 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.350 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.352 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 14.7471ms
+2026-05-14 21:54:02.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:02.352 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 11.9866ms
+2026-05-14 21:54:02.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:02.353 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 15.3202ms
+2026-05-14 21:54:02.354 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 14.5099ms
+2026-05-14 21:54:02.359 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.364 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.370 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:02.370 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:02.371 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:02.372 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:02.376 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:02.378 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:02.381 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:02.382 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:02.384 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:02.385 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 9.5617ms
+2026-05-14 21:54:02.383 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 9.8317ms
+2026-05-14 21:54:02.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:02.387 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.388 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:02.389 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:02.391 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.392 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:02.393 +03:00 [INF] HTTP GET /api/Categories responded 200 in 22.3844 ms
+2026-05-14 21:54:02.394 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 23.7951 ms
+2026-05-14 21:54:02.394 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:02.395 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:02.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 42.6314ms
+2026-05-14 21:54:02.399 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:02.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 44.2056ms
+2026-05-14 21:54:02.408 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:02.403 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:02.412 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:02.414 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:02.415 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 8.8995ms
+2026-05-14 21:54:02.416 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 15.6759ms
+2026-05-14 21:54:02.417 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:02.418 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:02.419 +03:00 [INF] HTTP GET /api/Categories responded 200 in 25.1981 ms
+2026-05-14 21:54:02.420 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 28.3046 ms
+2026-05-14 21:54:02.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 35.9861ms
+2026-05-14 21:54:02.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 39.2173ms
+2026-05-14 21:54:02.650 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:54:02.652 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.653 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 3.6036ms
+2026-05-14 21:54:02.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:02.658 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:02.659 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:02.660 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:02.664 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:02.667 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:02.668 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:02.670 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 8.574ms
+2026-05-14 21:54:02.671 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:02.672 +03:00 [INF] HTTP GET /api/Components responded 200 in 13.0119 ms
+2026-05-14 21:54:02.673 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 18.8897ms
+2026-05-14 21:54:28.648 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:28.649 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:28.650 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:28.649 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:28.659 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.661 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.666 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 17.2638ms
+2026-05-14 21:54:28.670 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 21.2406ms
+2026-05-14 21:54:28.663 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.665 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.672 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:28.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:28.683 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 33.1656ms
+2026-05-14 21:54:28.684 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 34.7165ms
+2026-05-14 21:54:28.686 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.688 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.694 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:28.694 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:28.695 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:28.696 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:28.701 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:28.704 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:28.705 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:28.707 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:28.708 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 9.9176ms
+2026-05-14 21:54:28.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:28.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:28.709 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 10.0672ms
+2026-05-14 21:54:28.711 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:28.713 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.715 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:28.716 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:28.717 +03:00 [INF] HTTP GET /api/Categories responded 200 in 23.7457 ms
+2026-05-14 21:54:28.718 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:28.719 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:28.719 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 25.1777 ms
+2026-05-14 21:54:28.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 48.9297ms
+2026-05-14 21:54:28.722 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:28.723 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:28.731 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:28.734 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:28.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 47.8546ms
+2026-05-14 21:54:28.736 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:28.738 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:28.741 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 12.6363ms
+2026-05-14 21:54:28.743 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 9.9894ms
+2026-05-14 21:54:28.744 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:28.745 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:28.746 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 28.4532 ms
+2026-05-14 21:54:28.747 +03:00 [INF] HTTP GET /api/Categories responded 200 in 28.7741 ms
+2026-05-14 21:54:28.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 38.8544ms
+2026-05-14 21:54:28.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 42.016ms
+2026-05-14 21:54:34.067 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories/10 - null null
+2026-05-14 21:54:34.070 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.070 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories/10 - 204 null null 4.0414ms
+2026-05-14 21:54:34.072 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7284/api/Categories/10 - null null
+2026-05-14 21:54:34.076 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.076 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.Delete (CatalogService)'
+2026-05-14 21:54:34.080 +03:00 [INF] Route matched with {action = "Delete", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:34.091 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-05-14 21:54:34.111 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+OUTPUT 1
+WHERE [Id] = @p0;
+2026-05-14 21:54:34.118 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-05-14 21:54:34.119 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.Delete (CatalogService) in 36.6655ms
+2026-05-14 21:54:34.120 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.Delete (CatalogService)'
+2026-05-14 21:54:34.121 +03:00 [INF] HTTP DELETE /api/Categories/10 responded 204 in 44.3724 ms
+2026-05-14 21:54:34.122 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7284/api/Categories/10 - 204 null null 49.8193ms
+2026-05-14 21:54:34.126 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:34.125 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:34.129 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.132 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.133 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Suppliers - 204 null null 6.8575ms
+2026-05-14 21:54:34.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:34.134 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Categories - 204 null null 8.2251ms
+2026-05-14 21:54:34.135 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:34.146 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.151 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:34.152 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:34.152 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:34.153 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:34.154 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:34.157 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:34.160 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:34.162 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:34.164 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:34.165 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 9.4643ms
+2026-05-14 21:54:34.166 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 7.8337ms
+2026-05-14 21:54:34.167 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:34.168 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:34.169 +03:00 [INF] HTTP GET /api/Categories responded 200 in 17.7922 ms
+2026-05-14 21:54:34.170 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 17.9770 ms
+2026-05-14 21:54:34.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 35.7692ms
+2026-05-14 21:54:34.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 38.1123ms
+2026-05-14 21:54:35.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:35.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:35.867 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:35.869 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:35.870 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:35.870 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:35.871 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:35.872 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:35.875 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:35.878 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:35.881 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:35.882 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:35.883 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 10.1661ms
+2026-05-14 21:54:35.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Categories - null null
+2026-05-14 21:54:35.885 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 8.1906ms
+2026-05-14 21:54:35.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Suppliers - null null
+2026-05-14 21:54:35.886 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:35.888 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:35.889 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:35.891 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:35.892 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 22.3523 ms
+2026-05-14 21:54:35.893 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:35.893 +03:00 [INF] HTTP GET /api/Categories responded 200 in 23.2544 ms
+2026-05-14 21:54:35.894 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:35.896 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 33.041ms
+2026-05-14 21:54:35.897 +03:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.CategoriesController (CatalogService).
+2026-05-14 21:54:35.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 35.6819ms
+2026-05-14 21:54:35.905 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2026-05-14 21:54:35.899 +03:00 [INF] Route matched with {action = "GetAll", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.SuppliersController (CatalogService).
+2026-05-14 21:54:35.909 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:35.913 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Suppliers] AS [s]
+2026-05-14 21:54:35.913 +03:00 [INF] Executed action CatalogService.Controllers.CategoriesController.GetAll (CatalogService) in 10.1345ms
+2026-05-14 21:54:35.916 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:35.917 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.CategoriesController.GetAll (CatalogService)'
+2026-05-14 21:54:35.918 +03:00 [INF] Executed action CatalogService.Controllers.SuppliersController.GetAll (CatalogService) in 7.3182ms
+2026-05-14 21:54:35.919 +03:00 [INF] HTTP GET /api/Categories responded 200 in 26.2767 ms
+2026-05-14 21:54:35.920 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.SuppliersController.GetAll (CatalogService)'
+2026-05-14 21:54:35.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Categories - 200 null application/json; charset=utf-8 36.0015ms
+2026-05-14 21:54:35.922 +03:00 [INF] HTTP GET /api/Suppliers responded 200 in 28.2430 ms
+2026-05-14 21:54:35.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Suppliers - 200 null application/json; charset=utf-8 42.1458ms
+2026-05-14 21:54:36.164 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:54:36.167 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:36.168 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 4.0888ms
+2026-05-14 21:54:36.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:36.174 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:36.175 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:36.176 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:36.181 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:36.183 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:36.184 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:36.186 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 8.4139ms
+2026-05-14 21:54:36.187 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:36.188 +03:00 [INF] HTTP GET /api/Components responded 200 in 13.3160 ms
+2026-05-14 21:54:36.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 19.6347ms
+2026-05-14 21:54:44.537 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:54:44.540 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:44.540 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 3.6248ms
+2026-05-14 21:54:44.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:44.546 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:44.547 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:44.548 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:44.551 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:44.555 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:44.556 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:44.557 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.2672ms
+2026-05-14 21:54:44.558 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:44.559 +03:00 [INF] HTTP GET /api/Components responded 200 in 12.3697 ms
+2026-05-14 21:54:44.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 18.8314ms
+2026-05-14 21:54:45.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:45.935 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:45.936 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:45.938 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:45.942 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:45.945 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:45.946 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:45.948 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 8.2482ms
+2026-05-14 21:54:45.949 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:45.950 +03:00 [INF] HTTP GET /api/Components responded 200 in 14.4587 ms
+2026-05-14 21:54:45.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 20.0566ms
+2026-05-14 21:54:48.731 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=e - null null
+2026-05-14 21:54:48.734 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:48.734 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=e - 204 null null 3.4125ms
+2026-05-14 21:54:48.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=e - null null
+2026-05-14 21:54:48.740 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:48.741 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:48.745 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:48.756 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:48.760 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:48.765 +03:00 [INF] Filtered components: Name=e, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=5
+2026-05-14 21:54:48.768 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:48.769 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 21.6767ms
+2026-05-14 21:54:48.770 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:48.771 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 29.6035 ms
+2026-05-14 21:54:48.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=e - 200 null application/json; charset=utf-8 36.0985ms
+2026-05-14 21:54:50.143 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=el - null null
+2026-05-14 21:54:50.146 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:50.147 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=el - 204 null null 4.4306ms
+2026-05-14 21:54:50.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=el - null null
+2026-05-14 21:54:50.153 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:50.154 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:50.155 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:50.159 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:50.163 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:50.165 +03:00 [INF] Filtered components: Name=el, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=0
+2026-05-14 21:54:50.167 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:50.168 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 11.544ms
+2026-05-14 21:54:50.170 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:50.171 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 16.6937 ms
+2026-05-14 21:54:50.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=el - 200 null application/json; charset=utf-8 22.8382ms
+2026-05-14 21:54:52.407 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:54:52.409 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:52.410 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 4.0459ms
+2026-05-14 21:54:52.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:52.416 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:52.417 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:52.418 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:52.421 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:52.424 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:52.425 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:52.426 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.206ms
+2026-05-14 21:54:52.427 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:52.428 +03:00 [INF] HTTP GET /api/Components responded 200 in 11.9930 ms
+2026-05-14 21:54:52.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 17.925ms
+2026-05-14 21:54:53.999 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=d - null null
+2026-05-14 21:54:54.003 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:54.005 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=d - 204 null null 6.1312ms
+2026-05-14 21:54:54.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=d - null null
+2026-05-14 21:54:54.014 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:54.015 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:54.016 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:54.020 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:54.023 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:54.025 +03:00 [INF] Filtered components: Name=d, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=1
+2026-05-14 21:54:54.028 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:54.030 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 11.9229ms
+2026-05-14 21:54:54.031 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:54.032 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 17.2199 ms
+2026-05-14 21:54:54.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=d - 200 null application/json; charset=utf-8 26.6848ms
+2026-05-14 21:54:54.653 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=di - null null
+2026-05-14 21:54:54.657 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:54.658 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=di - 204 null null 5.1473ms
+2026-05-14 21:54:54.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=di - null null
+2026-05-14 21:54:54.664 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:54.665 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:54.666 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:54.670 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:54.673 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:54.675 +03:00 [INF] Filtered components: Name=di, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=1
+2026-05-14 21:54:54.678 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:54.679 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 11.5213ms
+2026-05-14 21:54:54.680 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:54.681 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 16.1142 ms
+2026-05-14 21:54:54.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=di - 200 null application/json; charset=utf-8 20.6479ms
+2026-05-14 21:54:55.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:55.562 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:55.563 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:55.565 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:55.569 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:55.572 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:55.573 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:55.574 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.2838ms
+2026-05-14 21:54:55.575 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:55.576 +03:00 [INF] HTTP GET /api/Components responded 200 in 13.8197 ms
+2026-05-14 21:54:55.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 20.3829ms
+2026-05-14 21:54:58.283 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=mi - null null
+2026-05-14 21:54:58.286 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:58.287 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=mi - 204 null null 4.1869ms
+2026-05-14 21:54:58.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=mi - null null
+2026-05-14 21:54:58.294 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:58.295 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:58.296 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:58.301 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:58.303 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:58.305 +03:00 [INF] Filtered components: Name=mi, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=1
+2026-05-14 21:54:58.307 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:58.309 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 11.0814ms
+2026-05-14 21:54:58.310 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:58.311 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 16.6302 ms
+2026-05-14 21:54:58.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=mi - 200 null application/json; charset=utf-8 23.4761ms
+2026-05-14 21:54:59.393 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=m - null null
+2026-05-14 21:54:59.397 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:59.398 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components/filter?name=m - 204 null null 6.0417ms
+2026-05-14 21:54:59.400 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components/filter?name=m - null null
+2026-05-14 21:54:59.405 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:59.405 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:59.406 +03:00 [INF] Route matched with {action = "Filter", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Filter(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.String, Int32, Int32) on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:59.410 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:59.413 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:59.415 +03:00 [INF] Filtered components: Name=m, MinPrice=null, MaxPrice=null, SortBy=name, Order=asc, Page=1, Size=10, ResultCount=3
+2026-05-14 21:54:59.417 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:59.418 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.Filter (CatalogService) in 10.1743ms
+2026-05-14 21:54:59.419 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.Filter (CatalogService)'
+2026-05-14 21:54:59.420 +03:00 [INF] HTTP GET /api/Components/filter responded 200 in 14.8481 ms
+2026-05-14 21:54:59.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components/filter?name=m - 200 null application/json; charset=utf-8 21.3732ms
+2026-05-14 21:54:59.876 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7284/api/Components - null null
+2026-05-14 21:54:59.881 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:59.882 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7284/api/Components - 204 null null 5.7449ms
+2026-05-14 21:54:59.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7284/api/Components - null null
+2026-05-14 21:54:59.889 +03:00 [INF] CORS policy execution successful.
+2026-05-14 21:54:59.890 +03:00 [INF] Executing endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:59.891 +03:00 [INF] Route matched with {action = "GetAll", controller = "Components"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller CatalogService.Controllers.ComponentsController (CatalogService).
+2026-05-14 21:54:59.895 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[Name], [c].[Price], [c].[Quantity], [c].[SupplierId], [c0].[Id], [c0].[Description], [c0].[Name], [s].[Id], [s].[Country], [s].[Name]
+FROM [Components] AS [c]
+INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+INNER JOIN [Suppliers] AS [s] ON [c].[SupplierId] = [s].[Id]
+2026-05-14 21:54:59.898 +03:00 [INF] Returned 8 components from CatalogDb
+2026-05-14 21:54:59.899 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.BLL.DTOs.ComponentDto, CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-14 21:54:59.900 +03:00 [INF] Executed action CatalogService.Controllers.ComponentsController.GetAll (CatalogService) in 7.325ms
+2026-05-14 21:54:59.901 +03:00 [INF] Executed endpoint 'CatalogService.Controllers.ComponentsController.GetAll (CatalogService)'
+2026-05-14 21:54:59.902 +03:00 [INF] HTTP GET /api/Components responded 200 in 12.1047 ms
+2026-05-14 21:54:59.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7284/api/Components - 200 null application/json; charset=utf-8 19.7392ms

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35208.52
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12324.101 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{0DB105D3-3D51-48AE-ABAE-68C103667A49}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "InventoryService\InventoryService.csproj", "{91B123DF-869A-401D-B455-EB159D7BEBFC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderingService", "OrderingService\OrderingService.csproj", "{1C63033C-AD34-49E7-8D1C-897AC5FD3A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiComponent.Tests", "OptiComponent.Tests\OptiComponent.Tests.csproj", "{27F2D7CF-F7E8-4313-928F-CB3981E57474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1C63033C-AD34-49E7-8D1C-897AC5FD3A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C63033C-AD34-49E7-8D1C-897AC5FD3A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C63033C-AD34-49E7-8D1C-897AC5FD3A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F2D7CF-F7E8-4313-928F-CB3981E57474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F2D7CF-F7E8-4313-928F-CB3981E57474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F2D7CF-F7E8-4313-928F-CB3981E57474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F2D7CF-F7E8-4313-928F-CB3981E57474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

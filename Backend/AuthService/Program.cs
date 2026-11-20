@@ -59,7 +59,6 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 
-
 app.UseCors("AllowReactApp");
 
 if (app.Environment.IsDevelopment())

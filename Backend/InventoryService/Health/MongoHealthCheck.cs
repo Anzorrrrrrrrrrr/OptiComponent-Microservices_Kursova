@@ -18,7 +18,7 @@ public class MongoHealthCheck : IHealthCheck
     {
         try
         {
-            // Легка операція, щоб перевірити підключення
+            
             await _context.StockItems.EstimatedDocumentCountAsync(cancellationToken: cancellationToken);
             return HealthCheckResult.Healthy("MongoDB is OK");
         }

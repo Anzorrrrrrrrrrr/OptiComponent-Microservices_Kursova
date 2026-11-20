@@ -1,0 +1,49 @@
+services:
+  # 1. Реляційна БД MS SQL Server (CatalogDb та OrderingDb)
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: opticomponent-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "1434:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - opticomponent-net
+
+  # 2. Документно-орієнтована БД MongoDB (InventoryDb)
+  mongodb:
+    image: mongo:7.0
+    container_name: opticomponent-mongodb
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - opticomponent-net
+
+  # 3. Брокер повідомлень RabbitMQ з панеллю керування
+  rabbitmq:
+    image: rabbitmq:4.0-management
+    container_name: opticomponent-rabbitmq
+    ports:
+      - "5673:5672"   # AMQP протокол
+      - "15673:15672" # Веб-інтерфейс Management UI
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - opticomponent-net
+
+volumes:
+  sqlserver_data:
+  mongodb_data:
+  rabbitmq_data:
+
+networks:
+  opticomponent-net:
+    driver: bridge

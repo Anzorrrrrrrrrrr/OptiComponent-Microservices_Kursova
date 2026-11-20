@@ -1,7 +1,7 @@
 ﻿using OrderingService.DAL;
 using OrderingService.External;
 using OrderingService.Models;
-using OrderingService.Metrics;          
+using OrderingService.Metrics;         
 using Microsoft.Extensions.Logging;
 
 namespace OrderingService.BLL;
@@ -17,12 +17,12 @@ public class OrderService
         IOrderRepository repo,
         GrpcCatalogClient catalogClient,
         ILogger<OrderService> logger,
-        IEventPublisher eventPublisher)                 
+        IEventPublisher eventPublisher)                
     {
         _repo = repo;
         _catalogClient = catalogClient;
         _logger = logger;
-        _eventPublisher = eventPublisher;              
+        _eventPublisher = eventPublisher;               
     }
 
 
@@ -31,7 +31,7 @@ public class OrderService
     //dddd
     public async Task<bool> UpdateStatusAsync(int id, string newStatus)
     {
-        // 1. Шукаємо замовлення через _repo
+        // Шукаємо замовлення через _repo
         var entity = await _repo.GetByIdAsync(id);
         if (entity == null)
         {
@@ -39,10 +39,10 @@ public class OrderService
             return false;
         }
 
-        // 2. Оновлюємо ТІЛЬКИ статус
+        // Оновлюємо ТІЛЬКИ статус
         entity.Status = newStatus;
 
-        // 3. Зберігаємо зміни через _repo
+        // Зберігаємо зміни через _repo
         await _repo.UpdateAsync(entity);
 
         _logger.LogInformation("Order {Id} status updated to {Status}", id, newStatus);
@@ -93,10 +93,10 @@ public class OrderService
         var id = await _repo.CreateAsync(order);
         order.Id = id;                     
 
-        // 🔹 1) метрика
+        //метрика
         AppMetrics.OrderCreated();
 
-        // 🔹 2) публікуємо подію в RabbitMQ
+        //публікуємо подію в RabbitMQ
         await _eventPublisher.PublishOrderCreatedAsync(order);
 
         _logger.LogInformation("Order {Id} created successfully {@Order}", id, order);

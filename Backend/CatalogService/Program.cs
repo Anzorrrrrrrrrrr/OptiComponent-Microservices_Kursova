@@ -123,7 +123,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Адреса вашого React
+        policy.WithOrigins("http://localhost:3000") // Адреса React
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

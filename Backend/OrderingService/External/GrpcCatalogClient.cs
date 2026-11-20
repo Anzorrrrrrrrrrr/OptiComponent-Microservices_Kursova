@@ -9,7 +9,7 @@ public class GrpcCatalogClient
 
     public GrpcCatalogClient(IConfiguration config)
     {
-        // Використаємо той самий URL, що і для REST
+        
         _catalogUrl = config["ServiceUrls:Catalog"]
                       ?? throw new InvalidOperationException("ServiceUrls:Catalog is not configured");
     }

@@ -9,8 +9,8 @@ using InventoryService.Application.Validators;
 using InventoryService.Health;
 using InventoryService.Messaging;
 using Serilog;
-using Microsoft.AspNetCore.Authentication.JwtBearer;  
-using Microsoft.IdentityModel.Tokens;                 
+using Microsoft.AspNetCore.Authentication.JwtBearer; 
+using Microsoft.IdentityModel.Tokens;                
 using Microsoft.OpenApi.Models;
 using InventoryService.Application.Behaviors;
 
@@ -83,7 +83,7 @@ builder.Services.AddHostedService<RabbitMqOrderCreatedConsumer>();
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-
+//ГОЛОВНИЙ рядок – підключаємо ValidationBehavior як pipeline
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 // HealthCheck для Mongo

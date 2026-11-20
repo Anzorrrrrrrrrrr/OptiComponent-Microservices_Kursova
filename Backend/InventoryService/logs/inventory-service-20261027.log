@@ -1,0 +1,181 @@
+2026-10-27 20:37:37.525 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-27 20:37:37.598 +02:00 [INF] Спроба підключення до RabbitMQ за адресою localhost...
+2026-10-27 20:37:37.808 +02:00 [INF] Now listening on: https://localhost:7206
+2026-10-27 20:37:37.810 +02:00 [INF] Now listening on: http://localhost:5174
+2026-10-27 20:37:37.818 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-10-27 20:37:37.990 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-27 20:37:37.992 +02:00 [INF] Hosting environment: Development
+2026-10-27 20:37:37.994 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-10-27 20:37:39.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-10-27 20:37:39.565 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 294.651ms
+2026-10-27 20:37:39.810 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-27 20:37:39.819 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-10-27 20:37:39.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 65.216ms
+2026-10-27 20:37:39.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.3436ms
+2026-10-27 20:37:40.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-10-27 20:37:40.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.4657ms
+2026-10-27 20:40:01.408 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:01.408 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:01.470 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 54.9289 ms
+2026-10-27 20:40:01.470 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 55.4325 ms
+2026-10-27 20:40:01.472 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 64.7696ms
+2026-10-27 20:40:01.474 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 66.3596ms
+2026-10-27 20:40:01.478 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:40:01.479 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:40:04.030 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:04.037 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 2.1397 ms
+2026-10-27 20:40:04.039 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 8.8354ms
+2026-10-27 20:40:04.042 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:40:04.815 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:04.821 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0796 ms
+2026-10-27 20:40:04.823 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 8.0419ms
+2026-10-27 20:40:04.826 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:40:05.483 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:05.487 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0915 ms
+2026-10-27 20:40:05.488 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 4.9066ms
+2026-10-27 20:40:05.491 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:40:07.471 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:40:07.477 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.1496 ms
+2026-10-27 20:40:07.480 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 9.0141ms
+2026-10-27 20:40:07.483 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:43:51.211 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-27 20:43:51.312 +02:00 [INF] Спроба підключення до RabbitMQ за адресою localhost...
+2026-10-27 20:43:51.519 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-10-27 20:43:51.570 +02:00 [INF] Now listening on: https://localhost:7206
+2026-10-27 20:43:51.572 +02:00 [INF] Now listening on: http://localhost:5174
+2026-10-27 20:43:51.733 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-27 20:43:51.735 +02:00 [INF] Hosting environment: Development
+2026-10-27 20:43:51.736 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-10-27 20:43:52.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-10-27 20:43:52.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 221.0285ms
+2026-10-27 20:43:52.352 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-27 20:43:52.366 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 13.6089ms
+2026-10-27 20:43:52.395 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-10-27 20:43:52.441 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.113ms
+2026-10-27 20:43:52.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-10-27 20:43:52.534 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.063ms
+2026-10-27 20:44:21.352 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:21.352 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:21.412 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 49.1206 ms
+2026-10-27 20:44:21.412 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 48.8015 ms
+2026-10-27 20:44:21.414 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 62.298ms
+2026-10-27 20:44:21.416 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 63.8345ms
+2026-10-27 20:44:21.420 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:21.421 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:25.334 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:25.339 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 1.7770 ms
+2026-10-27 20:44:25.341 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 7.6541ms
+2026-10-27 20:44:25.345 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:25.847 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:25.851 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0846 ms
+2026-10-27 20:44:25.852 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.3743ms
+2026-10-27 20:44:25.855 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:26.026 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:26.030 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0982 ms
+2026-10-27 20:44:26.032 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.6642ms
+2026-10-27 20:44:26.034 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:26.233 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:26.235 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0794 ms
+2026-10-27 20:44:26.237 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 3.9495ms
+2026-10-27 20:44:26.240 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:26.463 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:26.465 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0920 ms
+2026-10-27 20:44:26.467 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 4.5134ms
+2026-10-27 20:44:26.470 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:44:26.688 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:44:26.691 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.1076 ms
+2026-10-27 20:44:26.693 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.154ms
+2026-10-27 20:44:26.696 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:45:49.955 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-27 20:45:50.013 +02:00 [INF] Спроба підключення до RabbitMQ за адресою localhost...
+2026-10-27 20:45:50.143 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-10-27 20:45:50.168 +02:00 [INF] Now listening on: https://localhost:7206
+2026-10-27 20:45:50.169 +02:00 [INF] Now listening on: http://localhost:5174
+2026-10-27 20:45:50.259 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-27 20:45:50.260 +02:00 [INF] Hosting environment: Development
+2026-10-27 20:45:50.262 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-10-27 20:45:50.759 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-10-27 20:45:50.966 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 209.7559ms
+2026-10-27 20:45:50.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-27 20:45:50.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-10-27 20:45:51.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 16.0931ms
+2026-10-27 20:45:51.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.6711ms
+2026-10-27 20:45:51.165 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-10-27 20:45:51.184 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.6715ms
+2026-10-27 20:46:02.860 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:02.860 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:02.906 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 40.8761 ms
+2026-10-27 20:46:02.906 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 39.3953 ms
+2026-10-27 20:46:02.909 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 49.5333ms
+2026-10-27 20:46:02.911 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 51.3365ms
+2026-10-27 20:46:02.916 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:02.917 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:08.832 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:08.833 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:08.838 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 2.2180 ms
+2026-10-27 20:46:08.838 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0446 ms
+2026-10-27 20:46:08.840 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 7.7277ms
+2026-10-27 20:46:08.841 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 8.9694ms
+2026-10-27 20:46:08.844 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:08.847 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:10.452 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:10.456 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0947 ms
+2026-10-27 20:46:10.458 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.2106ms
+2026-10-27 20:46:10.461 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:10.660 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:10.665 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.1665 ms
+2026-10-27 20:46:10.668 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 7.4314ms
+2026-10-27 20:46:10.671 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:10.887 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:10.891 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.1396 ms
+2026-10-27 20:46:10.893 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.9884ms
+2026-10-27 20:46:10.895 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:11.229 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:11.232 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0984 ms
+2026-10-27 20:46:11.234 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 5.2364ms
+2026-10-27 20:46:11.237 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:11.424 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:11.430 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.1014 ms
+2026-10-27 20:46:11.433 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 9.1417ms
+2026-10-27 20:46:11.435 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 20:46:11.648 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7206/api/Orders - null null
+2026-10-27 20:46:11.651 +02:00 [INF] HTTP OPTIONS /api/Orders responded 404 in 0.0810 ms
+2026-10-27 20:46:11.652 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7206/api/Orders - 404 0 null 4.8315ms
+2026-10-27 20:46:11.655 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: OPTIONS https://localhost:7206/api/Orders, Response status code: 404
+2026-10-27 21:00:38.651 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-27 21:00:38.707 +02:00 [INF] Спроба підключення до RabbitMQ за адресою localhost...
+2026-10-27 21:00:38.895 +02:00 [INF] Now listening on: https://localhost:7206
+2026-10-27 21:00:38.898 +02:00 [INF] Now listening on: http://localhost:5174
+2026-10-27 21:00:38.990 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-10-27 21:00:39.091 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-27 21:00:39.093 +02:00 [INF] Hosting environment: Development
+2026-10-27 21:00:39.095 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-10-27 21:00:40.090 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-10-27 21:00:40.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 380.544ms
+2026-10-27 21:00:40.567 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-27 21:00:40.581 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-10-27 21:00:40.583 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 16.6445ms
+2026-10-27 21:00:40.668 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.0862ms
+2026-10-27 21:00:40.740 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-10-27 21:00:40.768 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.2347ms
+2026-10-27 21:01:27.496 +02:00 [INF] Отримано повідомлення з RabbitMQ: {"OrderId":12,"ProjectName":"\u0422\u041E\u0412 \u0422\u0435\u0445\u041A\u043E\u043C","CreatedAt":"2026-10-27T19:01:27.1601782Z","Items":[{"ComponentName":"ESP-32","Quantity":9}]}
+2026-10-27 21:01:28.048 +02:00 [INF] Створено новий запис у MongoDB для 'ESP-32' (Замовлення #12)
+2026-10-27 21:33:33.992 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-27 21:33:34.237 +02:00 [INF] Успішно підключено до RabbitMQ. Слухаємо чергу: order_created_queue
+2026-10-27 21:33:34.258 +02:00 [INF] Now listening on: https://localhost:7206
+2026-10-27 21:33:34.260 +02:00 [INF] Now listening on: http://localhost:5174
+2026-10-27 21:33:34.386 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-27 21:33:34.388 +02:00 [INF] Hosting environment: Development
+2026-10-27 21:33:34.389 +02:00 [INF] Content root path: C:\Users\Dell\source\repos\Anzorrrrrrrrrrr\OptiComponent-Microservices\InventoryService
+2026-10-27 21:33:35.348 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/index.html - null null
+2026-10-27 21:33:35.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/index.html - 200 null text/html;charset=utf-8 244.5033ms
+2026-10-27 21:33:35.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_vs/browserLink - null null
+2026-10-27 21:33:35.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-27 21:33:35.776 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 16.8151ms
+2026-10-27 21:33:35.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.8758ms
+2026-10-27 21:33:36.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - null null
+2026-10-27 21:33:36.050 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.9605ms
+2026-10-27 21:34:38.293 +02:00 [INF] Отримано повідомлення з RabbitMQ: {"OrderId":13,"ProjectName":"\u0422\u041E\u0412 Tesla","CreatedAt":"2026-10-27T19:34:37.956403Z","Items":[{"ComponentId":23,"ComponentName":"Mostfet","Quantity":20,"CurrentStock":30}]}
+2026-10-27 21:34:38.675 +02:00 [INF] Створено новий запис у MongoDB для 'Mostfet' з ID 23 (Замовлення #13)
+2026-10-27 21:36:03.508 +02:00 [INF] Отримано повідомлення з RabbitMQ: {"OrderId":14,"ProjectName":"\u0422\u041E\u0412 \u0430\u043B\u0430","CreatedAt":"2026-10-27T19:36:03.4806405Z","Items":[{"ComponentId":23,"ComponentName":"Mostfet","Quantity":11,"CurrentStock":19}]}
+2026-10-27 21:36:03.567 +02:00 [INF] Inventory updated in MongoDB for Mostfet: -11 pcs.
